@@ -1,6 +1,6 @@
 <template>
   <div>
-    Hello World!
+    Siegfried Hamm - Web Developer
     <Works />
   </div>
 </template>
