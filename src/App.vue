@@ -1,6 +1,8 @@
 <template>
   <div>
     Siegfried Hamm - Web Developer
+    <br />
+    <br />
     <Works />
   </div>
 </template>
