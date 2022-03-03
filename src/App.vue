@@ -4,11 +4,11 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="top-bar">
-      <strong class="title">Siegfried Hamm - Web Developer</strong>
-    </div>
+    <strong class="title">Siegfried Hamm - Web Developer</strong>
 
-    <img scr="..\src\assets\logo.png" alt="vue logo" class="logo" />
+    <br />
+
+    <img scr="/images/logo.png" alt="vue logo" class="logo" />
 
     <br />
 
@@ -30,32 +30,26 @@ export default {
 };
 </script>
 
-<style>
+<style type="text/css">
 body {
-  display: flex;
   background-color: #000;
-  font-family: "Bungee Hairline";
-  color: #00ffdc;
-  margin-top: 60px;
-  font-size: 20px;
+  padding: 40px;
 }
+
 .title {
-  animation: type 8s steps(60, end);
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  color: #00ffdc;
+  animation-name: type-text;
+  animation-duration: 4s;
 }
 
-.top-bar {
-  margin-left: 2em;
-  background-color: black;
-}
-
-@keyframes type {
+@keyframes type-text {
   from {
     width: 0;
   }
-}
-
-.logo {
-  width: 10px;
-  height: 10px;
+  to {
+    width: 1100px;
+  }
 }
 </style>
