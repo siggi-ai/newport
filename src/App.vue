@@ -1,6 +1,12 @@
 <template>
   <div>
-    Siegfried Hamm - Web Developer
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
+      rel="stylesheet"
+    />
+    <div class="top-bar"></div>
+    <strong>Siegfried Hamm - Web Developer</strong>
+
     <br />
     <br />
     <Works />
@@ -19,11 +25,14 @@ export default {
 </script>
 
 <style>
-#app {
-  color: #2474c4;
+body {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   margin-top: 60px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Bungee Hairline";
   font-size: 20px;
+}
+.top-bar {
 }
 </style>

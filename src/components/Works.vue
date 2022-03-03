@@ -1,5 +1,5 @@
 <template>
-    <div>
-        List of my Works
-    </div>
+  <div>
+    <strong>Vue.JS - HTML - CSS - JavaScript</strong>
+  </div>
 </template>
