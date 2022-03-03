@@ -6,12 +6,13 @@
     />
 
     <div>
-      <strong class="title">Siegfried Hamm - Web Developer</strong>
+      <strong class="name">Siegfried Hamm</strong>
+      <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
 
     <br />
 
-    <img class="logo" :src="image" />
+    <img class="logo" :src="Logo" />
 
     <br />
 
@@ -21,7 +22,7 @@
 </template>
 
 <script>
-import image from "./assets/logo.png";
+import Logo from "./assets/logo.png";
 import Works from "./components/Works.vue";
 import Box1 from "./components/Box1.vue";
 
@@ -33,14 +34,15 @@ export default {
   },
   data: function () {
     return {
-      image: image,
+      Logo: Logo,
     };
   },
 };
 </script>
 
-<style type="text/css">
+<style>
 body {
+  display: flex;
   background-color: #000;
   padding: 40px;
 }
@@ -50,19 +52,28 @@ body {
   height: auto;
 }
 
-.title {
+.name {
   font-family: "Bungee Hairline";
-  font-size: 27px;
+  font-size: 20px;
   color: #00ffdc;
-  animation: type-text 8s steps(10 end);
 }
 
-@keyframes type-text {
+.title {
+  display: flex;
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  color: #00ffdc;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 2s steps(20, end);
+}
+
+@keyframes typewriter {
   from {
     width: 0;
-  }
-  to {
-    width: 30e;
+  } to {
+    width: 100%;
   }
 }
 </style>
