@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import image from "./assets/logo.png"
+import image from "./assets/logo.png";
 import Works from "./components/Works.vue";
 import Box1 from "./components/Box1.vue";
 
@@ -33,9 +33,9 @@ export default {
   },
   data: function () {
     return {
-      image: image
-    }
-  }
+      image: image,
+    };
+  },
 };
 </script>
 
