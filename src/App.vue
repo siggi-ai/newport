@@ -11,7 +11,7 @@
 
     <br />
 
-    <img :src="image" />
+    <img class="logo" :src="image" />
 
     <br />
 
@@ -43,6 +43,11 @@ export default {
 body {
   background-color: #000;
   padding: 40px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
 }
 
 .title {
