@@ -4,11 +4,14 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <strong class="title">Siegfried Hamm - Web Developer</strong>
+
+    <div>
+      <strong class="title">Siegfried Hamm - Web Developer</strong>
+    </div>
 
     <br />
 
-    <img scr="/images/logo.png" alt="vue logo" class="logo" />
+    <img :src="image" />
 
     <br />
 
@@ -18,6 +21,7 @@
 </template>
 
 <script>
+import image from "./assets/logo.png"
 import Works from "./components/Works.vue";
 import Box1 from "./components/Box1.vue";
 
@@ -27,6 +31,11 @@ export default {
     Works,
     Box1,
   },
+  data: function () {
+    return {
+      image: image
+    }
+  }
 };
 </script>
 
@@ -38,10 +47,9 @@ body {
 
 .title {
   font-family: "Bungee Hairline";
-  font-size: 20px;
+  font-size: 27px;
   color: #00ffdc;
-  animation-name: type-text;
-  animation-duration: 4s;
+  animation: type-text 8s steps(10 end);
 }
 
 @keyframes type-text {
@@ -49,7 +57,7 @@ body {
     width: 0;
   }
   to {
-    width: 1100px;
+    width: 30e;
   }
 }
 </style>
