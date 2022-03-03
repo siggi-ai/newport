@@ -26,8 +26,8 @@ export default {
 
 <style>
 body {
-  background-color: rgb(255, 255, 255);
-  color: #000000;
+  background-color: #000;
+  color: #00ffdc;;
   margin-top: 60px;
   text-align: center;
   font-family: "Bungee Hairline";
