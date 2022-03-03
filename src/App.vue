@@ -5,13 +5,12 @@
       rel="stylesheet"
     />
     <div class="top-bar">
-    <strong class="top-bar">Siegfried Hamm - Web Developer</strong>
+      <strong class="top-bar">Siegfried Hamm - Web Developer</strong>
     </div>
     <br />
 
     <Works />
     <Box1 />
-
   </div>
 </template>
 

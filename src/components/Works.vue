@@ -5,6 +5,6 @@
 </template>
 <style scoped>
 .subtitle {
-  margin-left: 2em;
+  margin-left: 3em;
 }
 </style>

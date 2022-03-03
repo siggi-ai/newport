@@ -7,6 +7,8 @@
 .box1 {
   width: 100px;
   height: 100px;
-  color: gray;
+  background-color: #353535;
+  margin-left: 3em;
+  border-radius: 10px;
 }
 </style>
