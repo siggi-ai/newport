@@ -20,7 +20,11 @@
 
     <Works />
 
-    <Circles />
+    <div class="circles">
+      <Circles class="circle" />
+      <Circles class="circle" />
+      <Circles class="circle" />
+    </div>
   </div>
 </template>
 
@@ -101,5 +105,13 @@ body {
     width: 100%;
     display: block;
   }
+}
+
+.circles {
+  display: flex;
+}
+
+.circle {
+  margin-left: 10px;
 }
 </style>
