@@ -13,7 +13,8 @@
 
     <br />
 
-    <img class="logo" :src="Logo" />
+    <img class="vue-logo" :src="Logo" />
+    <img class="three-logos" :src="Logo3" />
 
     <br />
 
@@ -24,6 +25,7 @@
 </template>
 
 <script>
+import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png";
 import Works from "./components/Works.vue";
 import Box1 from "./components/Box1.vue";
@@ -39,6 +41,7 @@ export default {
   data: function () {
     return {
       Logo: Logo,
+      Logo3: Logo3,
     };
   },
 };
@@ -51,9 +54,9 @@ body {
   padding: 40px;
 }
 
-.logo {
-  width: 50px;
-  height: auto;
+.vue-logo {
+  width: auto;
+  height: 50px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
@@ -63,6 +66,13 @@ body {
   20% {
     opacity: 1;
   }
+}
+
+.three-logos {
+  width: auto;
+  height: 50px;
+  margin-left: 15px;
+  animation: fade 8s infinite;
 }
 
 .name {
