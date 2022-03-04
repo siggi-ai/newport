@@ -78,7 +78,7 @@ body {
 .name {
   font-family: "Bungee Hairline";
   font-size: 20px;
-  color: #00ffdc;
+  color: #61bdff;
 }
 
 .title {
