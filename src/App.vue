@@ -6,7 +6,7 @@
     />
 
     <div>
-      <strong class="name">Siegfried Hamm</strong>
+      <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
 
@@ -18,6 +18,7 @@
 
     <Works />
     <Box1 />
+    <Circles />
   </div>
 </template>
 
@@ -25,12 +26,14 @@
 import Logo from "./assets/logo.png";
 import Works from "./components/Works.vue";
 import Box1 from "./components/Box1.vue";
+import Circles from "./components/Circles.vue";
 
 export default {
   name: "App",
   components: {
     Works,
     Box1,
+    Circles,
   },
   data: function () {
     return {
@@ -72,8 +75,11 @@ body {
 @keyframes typewriter {
   from {
     width: 0;
-  } to {
+    display: none;
+  }
+  to {
     width: 100%;
+    display: block;
   }
 }
 </style>
