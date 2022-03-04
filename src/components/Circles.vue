@@ -6,9 +6,7 @@
   </div>
 </template>
 <style scoped>
-body {
-    display: flex;
-}
+
 .circle1 {
   width: 100px;
   height: 100px;
@@ -22,14 +20,17 @@ body {
   height: 100px;
   background-color: #eeff00;
   margin-left: 5em;
+  margin-top: -100px;
   border-radius: 50px;
+  opacity: 33,3%
 }
 
 .circle3 {
   width: 100px;
   height: 100px;
   background-color: #1900ff;
-  margin-left: 8em;
+  margin-left: 7em;
+  margin-top: -100px;
   border-radius: 50px;
 }
 </style>
