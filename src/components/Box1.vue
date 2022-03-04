@@ -5,9 +5,7 @@
       rel="stylesheet"
     />
     <div class="box1">
-      <div class="box2">
-        
-      </div>
+      <div class="box2"></div>
     </div>
   </div>
 </template>
@@ -27,12 +25,12 @@ export default {
   color: white;
   width: 100px;
   height: 100px;
-  background-color: #353535;
+  background-color: #e9d900;
   margin-left: 15em;
   margin-top: -6em;
   border-radius: 50%;
   /* transform: rotate(45deg); */
-  animation: spin 50s linear infinite;
+  animation: spin 100s linear infinite;
 }
 @keyframes spin {
   0% {
@@ -44,9 +42,9 @@ export default {
 }
 
 .box2 {
-    width: 50px;
+  width: 50px;
   height: 50px;
-  background-color: #4e4e4e;
+  background-color: #000000;
 }
 
 .vue-logo {
