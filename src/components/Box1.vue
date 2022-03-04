@@ -8,7 +8,8 @@
   width: 100px;
   height: 100px;
   background-color: #353535;
-  margin-left: 3em;
+  margin-left: 15em;
+  margin-top: -6em;
   border-radius: 10px;
 }
 </style>

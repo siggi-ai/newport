@@ -9,6 +9,7 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
+    <Box1 />
 
     <br />
 
@@ -17,7 +18,7 @@
     <br />
 
     <Works />
-    <Box1 />
+
     <Circles />
   </div>
 </template>
@@ -51,7 +52,7 @@ body {
 }
 
 .logo {
-  width: 100px;
+  width: 50px;
   height: auto;
 }
 
