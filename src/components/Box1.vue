@@ -25,7 +25,7 @@ export default {
   color: white;
   width: 100px;
   height: 100px;
-  background-color: #e9d900;
+  background-color: #ffc107;
   margin-left: 15em;
   margin-top: -6em;
   border-radius: 50%;
