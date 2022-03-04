@@ -8,38 +8,23 @@
 body {
     display: flex;
 }
-.circle1 {
-  width: 100px;
-  height: 100px;
-  background-color: #ff0000;
-  margin-left: 3em;
-  border-radius: 50px;
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
-.circle1:hover {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-
-}
 
 .circle3 {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   background-color: #1900ff;
-  margin-left: 7em;
-  margin-top: -100px;
-  border-radius: 50px;
+  margin-left: 0em;
+  margin-top: 0px;
+  border-radius: 50%;
   opacity: 0.5;
   transition: 0.5s;
 }
 
 .circle3:hover {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  margin-left: 9em;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
 }
 </style>
