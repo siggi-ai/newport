@@ -54,6 +54,15 @@ body {
 .logo {
   width: 50px;
   height: auto;
+  animation: fade 8s infinite;
+}
+@keyframes fade {
+  10% {
+    opacity: 0.7;
+  }
+  20% {
+    opacity: 1;
+  }
 }
 
 .name {
