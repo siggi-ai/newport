@@ -93,7 +93,7 @@ body {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 2s steps(20, end);
+  animation: typewriter 3s steps(50, end);
 }
 
 @keyframes typewriter {
