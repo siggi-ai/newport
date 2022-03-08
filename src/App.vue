@@ -9,7 +9,7 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
-    <Box1 />
+    <Clock />
 
     <br />
 
@@ -32,14 +32,14 @@
 import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png";
 import Works from "./components/Works.vue";
-import Box1 from "./components/Box1.vue";
+import Clock from "./components/Clock.vue";
 import Circles from "./components/Circles.vue";
 
 export default {
   name: "App",
   components: {
     Works,
-    Box1,
+    Clock,
     Circles,
   },
   data: function () {
