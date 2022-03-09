@@ -4,8 +4,9 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="box1">
+    <div class="box1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello
       <div class="box2"></div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world
     </div>
   </div>
 </template>
@@ -43,13 +44,8 @@ export default {
 
 .box2 {
   width: 100px;
-  height: 50px;
+  height: 20px;
   background-color: #000000;
-}
-
-.vue-logo {
-  margin-top: -10px;
-  margin-left: 25px;
 }
 
 p {
