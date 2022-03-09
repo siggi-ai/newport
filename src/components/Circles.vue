@@ -1,11 +1,17 @@
 <template>
   <div>
-    <div class="circle3"></div>
+    <div class="circle3">
+      <img class="vue-logo" :src="Logo" />
+      <img class="three-logos" :src="Logo3" />
+    </div>
   </div>
 </template>
+<script>
+
+</script>
 <style scoped>
 body {
-    display: flex;
+  display: flex;
 }
 
 .circle3 {
