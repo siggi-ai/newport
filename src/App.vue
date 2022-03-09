@@ -13,11 +13,11 @@
     <br />
     <br />
 
-  <strong class="description">building websites with:</strong>
+    <strong class="description">*websites using:</strong>
 
     <br />
-      <img class="vue-logo" :src="Logo" />
-      <img class="three-logos" :src="Logo3" />
+    <img class="vue-logo" :src="Logo" />
+    <img class="three-logos" :src="Logo3" />
     <br />
 
     <Works />
