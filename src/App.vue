@@ -10,6 +10,10 @@
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
     <Clock />
+    <br />
+    <br />
+
+  <strong class="description">building websites with:</strong>
 
     <br />
       <img class="vue-logo" :src="Logo" />
@@ -103,6 +107,12 @@ body {
     width: 100%;
     display: block;
   }
+}
+
+.description {
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  color: #fffdb2;
 }
 
 .circles {
