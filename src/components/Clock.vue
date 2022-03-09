@@ -42,7 +42,7 @@ export default {
 }
 
 .box2 {
-  width: 50px;
+  width: 100px;
   height: 50px;
   background-color: #000000;
 }
