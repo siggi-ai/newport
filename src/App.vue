@@ -12,7 +12,8 @@
     <Clock />
 
     <br />
-
+      <img class="vue-logo" :src="Logo" />
+      <img class="three-logos" :src="Logo3" />
     <br />
 
     <Works />
