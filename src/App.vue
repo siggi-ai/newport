@@ -16,7 +16,7 @@
     <strong class="description">*websites using:</strong>
 
     <br />
-    <img class="vue-logo" :src="Logo" />
+    ..<img class="vue-logo" :src="Logo" />
     <img class="three-logos" :src="Logo3" />
     <br />
 
