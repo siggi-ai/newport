@@ -16,8 +16,9 @@
     <strong class="description">*websites using:</strong>
 
     <br />
-    ..<img class="vue-logo" :src="Logo" />
     <img class="three-logos" :src="Logo3" />
+    <br />
+    .........<img class="vue-logo" :src="Logo" />
     <br />
 
     <Works />
@@ -62,7 +63,7 @@ body {
 
 .vue-logo {
   width: auto;
-  height: 50px;
+  height: 90px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
