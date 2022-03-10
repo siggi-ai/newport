@@ -4,9 +4,9 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="box1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello
+    <div class="box1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one
       <div class="box2"></div>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min
     </div>
   </div>
 </template>
