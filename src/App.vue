@@ -76,7 +76,7 @@ body {
 
 .three-logos {
   width: auto;
-  height: 50px;
+  height: 100px;
   margin-left: 15px;
   animation: fade 8s infinite;
 }
