@@ -52,7 +52,7 @@ export default {
     };
   },
 };
-for(var i = 0; i < 10; i ++) console.log(i);
+for (var i = 0, j = 10; i < 10; i++, j--) console.log(i*j);
 </script>
 
 <style>
