@@ -63,7 +63,7 @@ body {
 
 .vue-logo {
   width: auto;
-  height: 90px;
+  height: 65px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
@@ -77,7 +77,7 @@ body {
 
 .three-logos {
   width: auto;
-  height: 100px;
+  height: 75px;
   margin-left: 15px;
   animation: fade 8s infinite;
 }
