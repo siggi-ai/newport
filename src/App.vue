@@ -17,8 +17,7 @@
 
     <br />
     <img class="three-logos" :src="Logo3" />
-    <br />
-    .........<img class="vue-logo" :src="Logo" />
+    <img class="vue-logo" :src="Logo" />
     <br />
 
     <Works />
