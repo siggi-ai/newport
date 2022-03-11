@@ -10,14 +10,6 @@
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
     <Clock />
-    <ul class="list">
-      <li>travel blog</li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <Circles class="circle" />
-    <br />
     <br />
 
     <strong class="description">*websites using:</strong>
@@ -26,6 +18,13 @@
     <img class="three-logos" :src="Logo3" />
     <img class="vue-logo" :src="Logo" />
     <br />
+
+        <ul class="list">
+      <li>travel blog</li>
+      <li>Pokédex</li>
+      <li>Movie Page</li>
+      <li>Your website</li>
+    </ul>
 
     <div class="circles">
       <Circles class="circle" />
