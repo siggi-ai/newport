@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="circle3">
-    </div>
+    <div class="circle3"></div>
   </div>
 </template>
 <script>
@@ -28,5 +27,7 @@ body {
   border-radius: 50%;
   margin-top: -5px;
   margin-left: -5px;
+  opacity: 1;
+  background-color: rgb(53 73 94);
 }
 </style>
