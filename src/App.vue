@@ -20,8 +20,6 @@
     <img class="vue-logo" :src="Logo" />
     <br />
 
-    <Works />
-
     <div class="circles">
       <Circles class="circle" />
       <Circles class="circle" />
@@ -33,14 +31,12 @@
 <script>
 import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png";
-import Works from "./components/Works.vue";
 import Clock from "./components/Clock.vue";
 import Circles from "./components/Circles.vue";
 
 export default {
   name: "App",
   components: {
-    Works,
     Clock,
     Circles,
   },
