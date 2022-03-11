@@ -10,6 +10,13 @@
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
     <Clock />
+    <ul class="list">
+      <li>travel blog</li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <Circles class="circle" />
     <br />
     <br />
 
@@ -21,8 +28,6 @@
     <br />
 
     <div class="circles">
-      <Circles class="circle" />
-      <Circles class="circle" />
       <Circles class="circle" />
     </div>
   </div>
@@ -47,7 +52,7 @@ export default {
     };
   },
 };
-for (var i = 0, j = 10; i < 10; i++, j--) console.log(i*j);
+for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j);
 </script>
 
 <style>
@@ -112,8 +117,17 @@ body {
   color: #fffdb2;
 }
 
+.list {
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  font-weight: bold;
+  color: #f30000;
+  list-style: square;
+}
+
 .circles {
   display: flex;
+  flex-direction: row;
 }
 
 .circle {
