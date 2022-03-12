@@ -9,13 +9,13 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
-    <Clock />
+    <Clock class="eye1" />
+    <Clock class="eye2" />
     <br />
-
     <strong class="description">*websites using:</strong>
-
     <br />
     <img class="three-logos" :src="Logo3" />
+    &nbsp;
     <img class="vue-logo" :src="Logo" />
     <br />
 
@@ -26,9 +26,8 @@
       <li class="list">Your website</li>
     </ul>
 
-    <div class="circles">
-      <Circles class="circle" />
-    </div>
+          <Circles class="circle" />
+
   </div>
 </template>
 
@@ -124,6 +123,14 @@ body {
   }
 }
 
+.eye1 {
+}
+
+.eye2 {
+  margin-left: 120px;
+  margin-top: -5px;
+}
+
 .description {
   font-family: "Bungee Hairline";
   font-size: 20px;
@@ -146,11 +153,10 @@ body {
 }
 
 .circles {
-  display: flex;
-  flex-direction: row;
+    margin-left: 200px;
 }
 
 .circle {
-  margin-left: 10px;
+  margin-left: 200px;
 }
 </style>
