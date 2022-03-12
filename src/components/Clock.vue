@@ -6,6 +6,7 @@
     />
     <div class="box1">
       <div class="box2"></div>
+      <div class="box3"></div>
     </div>
   </div>
 </template>
@@ -47,6 +48,15 @@ export default {
   height: 50px;
   border-radius: 50%;
   margin-left: 20px;
+}
+
+.box3 {
+  background-color: rgb(255, 255, 255);
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-top: -30px;
 }
 
 p {
