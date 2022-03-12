@@ -19,7 +19,8 @@
     <img class="vue-logo" :src="Logo" />
     <br />
 
-        <ul class="list">
+
+    <ul class="list">
       <li>travel blog</li>
       <li>Pokédex</li>
       <li>Movie Page</li>
@@ -122,6 +123,7 @@ body {
   font-weight: bold;
   color: #f30000;
   list-style: square;
+  border: 1px solid white;
 }
 
 .circles {
