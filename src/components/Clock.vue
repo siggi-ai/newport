@@ -5,9 +5,7 @@
       rel="stylesheet"
     />
     <div class="box1">
-      <strong>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min</strong
-      >
+      <div class="box2"></div>
     </div>
   </div>
 </template>
@@ -44,9 +42,11 @@ export default {
 }
 
 .box2 {
-  width: 100px;
-  height: 20px;
-  background-color: #ff0000;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 p {

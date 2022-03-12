@@ -19,11 +19,11 @@
     <img class="vue-logo" :src="Logo" />
     <br />
 
-    <ul class="list">
-      <li>travel blog</li>
-      <li>Pokédex</li>
-      <li>Movie Page</li>
-      <li>Your website</li>
+    <ul class="listbox">
+      <li class="list">travel blog</li>
+      <li class="list">Pokédex</li>
+      <li class="list">Movie Page</li>
+      <li class="list">Your website</li>
     </ul>
 
     <div class="circles">
@@ -57,7 +57,6 @@ for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j);
 <style>
 body {
   display: flex;
-/*   background-color: #000; */
   padding: 40px;
   background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
   background-size: 400% 400%;
@@ -132,19 +131,18 @@ body {
 }
 
 .list {
+  margin-left: 45px;
   font-family: "Bungee Hairline";
   font-size: 20px;
   font-weight: bold;
   color: #f30000;
   list-style: square;
-  padding: 10px;
+}
+
+.listbox {
   border: 1px solid #b90000;
   border-radius: 2%;
   background-color: rgb(81 0 0);
-}
-
-li {
-  margin-left: 45px;
 }
 
 .circles {
