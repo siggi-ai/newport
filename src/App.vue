@@ -126,6 +126,7 @@ body {
   padding: 10px;
   border: 1px solid #b90000;
   border-radius: 2%;
+  background-color: rgb(81 0 0);
 }
 
 li {
