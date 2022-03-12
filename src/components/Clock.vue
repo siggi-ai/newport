@@ -4,9 +4,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="box1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one
-      <div class="box2"></div>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min
+    <div class="box1">
+      <strong>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min</strong
+      >
     </div>
   </div>
 </template>
@@ -23,10 +24,10 @@ export default {
 <style scoped>
 .box1 {
   font-family: "Bungee Hairline";
-  color: white;
+  color: #000;
   width: 100px;
   height: 100px;
-  background-color: rgb(53 73 94);
+  background-color: white;
   margin-left: 15em;
   margin-top: -6em;
   border-radius: 50%;
@@ -45,7 +46,7 @@ export default {
 .box2 {
   width: 100px;
   height: 20px;
-  background-color: #000000;
+  background-color: #ff0000;
 }
 
 p {
