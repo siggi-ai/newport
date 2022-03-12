@@ -9,9 +9,13 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
+
     <Clock class="eye1" />
     <Clock class="eye2" />
     <div class="nose"></div>
+    <br />
+    <div class="mouth"></div>
+
     <br />
     <strong class="description">*websites using:</strong>
     <br />
@@ -132,6 +136,14 @@ body {
   height: 30px;
   width: 30px;
   background-color: red;
+  margin-left: 330px;
+  border-radius: 50%;
+}
+
+.mouth {
+  height: 30px;
+  width: 60px;
+  background-color: rgb(0, 0, 0);
   margin-left: 330px;
   border-radius: 50%;
 }
