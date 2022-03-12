@@ -42,7 +42,7 @@ export default {
 }
 
 .box2 {
-  background-color: red;
+  background-color: #000;
   width: 60px;
   height: 50px;
   border-radius: 50%;
