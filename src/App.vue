@@ -11,6 +11,7 @@
     </div>
     <Clock class="eye1" />
     <Clock class="eye2" />
+    <div class="nose"></div>
     <br />
     <strong class="description">*websites using:</strong>
     <br />
@@ -26,8 +27,7 @@
       <li class="list">Your website ?</li>
     </ul>
 
-          <Circles class="circle" />
-
+    <Circles class="circle" />
   </div>
 </template>
 
@@ -123,12 +123,17 @@ body {
   }
 }
 
-.eye1 {
-}
-
 .eye2 {
   margin-left: 120px;
   margin-top: -5px;
+}
+
+.nose {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  margin-left: 330px;
+  border-radius: 50%;
 }
 
 .description {
@@ -153,7 +158,7 @@ body {
 }
 
 .circles {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .circle {

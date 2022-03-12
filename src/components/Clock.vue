@@ -4,12 +4,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div>
-      <div class="box1">
-        <br />
-        <div class="box2"></div>
-        <div class="box3"></div>
-      </div>
+    <div class="box1">
+      <br />
+      <div class="box2"></div>
+      <div class="box3"></div>
     </div>
   </div>
 </template>
