@@ -4,9 +4,12 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="box1">
-      <div class="box2"></div>
-      <div class="box3"></div>
+    <div>
+      <div class="box1">
+        <br />
+        <div class="box2"></div>
+        <div class="box3"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -38,7 +41,7 @@ export default {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -48,10 +51,11 @@ export default {
   height: 50px;
   border-radius: 50%;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 .box3 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(121 121 121);
   width: 12px;
   height: 10px;
   border-radius: 50%;
