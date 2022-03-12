@@ -23,7 +23,7 @@
       <li class="list">travel blog</li>
       <li class="list">Pokédex</li>
       <li class="list">Movie Page</li>
-      <li class="list">Your website</li>
+      <li class="list">Your website ?</li>
     </ul>
 
           <Circles class="circle" />
@@ -149,7 +149,7 @@ body {
 .listbox {
   border: 1px solid #b90000;
   border-radius: 2%;
-  background-color: rgb(81 0 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .circles {
