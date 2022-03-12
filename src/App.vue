@@ -19,7 +19,6 @@
     <img class="vue-logo" :src="Logo" />
     <br />
 
-
     <ul class="list">
       <li>travel blog</li>
       <li>Pokédex</li>
@@ -58,8 +57,23 @@ for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j);
 <style>
 body {
   display: flex;
-  background-color: #000;
+/*   background-color: #000; */
   padding: 40px;
+  background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .vue-logo {
