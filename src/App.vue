@@ -124,7 +124,7 @@ body {
   color: #f30000;
   list-style: square;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #b90000;
   border-radius: 2%;
 }
 
