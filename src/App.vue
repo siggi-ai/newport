@@ -123,7 +123,12 @@ body {
   font-weight: bold;
   color: #f30000;
   list-style: square;
+  padding: 10px;
   border: 1px solid white;
+}
+
+li {
+  margin-left: 45px;
 }
 
 .circles {
