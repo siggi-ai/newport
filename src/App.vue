@@ -125,6 +125,7 @@ body {
   list-style: square;
   padding: 10px;
   border: 1px solid white;
+  border-radius: 2%;
 }
 
 li {
