@@ -11,6 +11,7 @@
     </div>
 
     <Clock class="eye1" />
+    <strong class="description">&#60;CSS Animation&#62;</strong>
     <Clock class="eye2" />
     <div class="nose"></div>
     <br />
@@ -28,7 +29,7 @@
       <li class="list">travel blog</li>
       <li class="list">Pokédex</li>
       <li class="list">Movie Page</li>
-      <li class="list">Your website ?</li>
+      <li class="list">your website ?</li>
     </ul>
 
     <Circles class="circle" />
