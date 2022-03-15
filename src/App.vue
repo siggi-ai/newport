@@ -29,7 +29,7 @@
       <li class="list">travel blog</li>
       <li class="list">Pokédex</li>
       <li class="list">Movie Page</li>
-      <li class="list">your website ?</li>
+      <li class="list">Your website ?</li>
     </ul>
 
     <Circles class="circle" />
