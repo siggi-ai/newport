@@ -32,14 +32,15 @@ export default {
   margin-top: -6em;
   border-radius: 50%;
   /* transform: rotate(45deg); */
-  animation: spin 100s linear infinite;
+  animation: spin 10s linear infinite;
+  animation-direction: alternate;
 }
 @keyframes spin {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(80deg);
   }
 }
 
