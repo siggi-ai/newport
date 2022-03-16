@@ -11,11 +11,11 @@
     </div>
 
     <Clock class="eye1" />
-    <strong class="description">&#60;CSS Animation&#62;</strong>
+    <!-- <strong class="description">&#60;CSS Animation&#62;</strong> -->
     <Clock class="eye2" />
-    <div class="nose"></div>
+    <!-- <div class="nose"></div> -->
     <br />
-    <div class="mouth"></div>
+    <!-- <div class="mouth"></div> -->
 
     <br />
     <strong class="description">*websites using:</strong>
