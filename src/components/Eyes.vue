@@ -37,10 +37,10 @@ export default {
 }
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
   }
   100% {
-    transform: rotate(80deg);
+    transform: rotate(360deg);
   }
 }
 

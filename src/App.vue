@@ -153,7 +153,7 @@ body {
 }
 
 .eyes {
-  margin-left: 50px;
+  margin-left: -240px;
 }
 
 .nose {
