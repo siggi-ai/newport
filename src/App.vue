@@ -10,9 +10,9 @@
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
 
-    <Clock class="eye1" />
+    <Eyes class="eye1" />
     <!-- <strong class="description">&#60;CSS Animation&#62;</strong> -->
-    <Clock class="eye2" />
+    <Eyes class="eye2" />
     <!-- <div class="nose"></div> -->
     <br />
     <!-- <div class="mouth"></div> -->
@@ -39,13 +39,13 @@
 <script>
 import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png";
-import Clock from "./components/Clock.vue";
+import Eyes from "./components/Eyes.vue";
 import Circles from "./components/Circles.vue";
 
 export default {
   name: "App",
   components: {
-    Clock,
+    Eyes,
     Circles,
   },
   data: function () {
