@@ -65,7 +65,12 @@ export default {
     };
   },
 };
-for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j);
+/* for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j); */
+var square = function (x) {
+  return x * x;
+};
+let x = 9;
+console.log(square(x));
 </script>
 
 <style>
@@ -149,7 +154,6 @@ body {
 
 .eye2 {
   margin-left: 120px;
-  margin-top: -5px;
 }
 
 .eyes {
