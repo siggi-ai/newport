@@ -36,8 +36,12 @@
     <br />
 
     <ul class="listbox">
-      <li class="list">travel blog</li>
-      <li class="list">Pokédex</li>
+      <li class="list">
+        <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
+      </li>
+      <li class="list">
+        <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
+      </li>
       <li class="list">Movie Page</li>
       <li class="list">Your website ?</li>
     </ul>
