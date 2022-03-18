@@ -11,7 +11,8 @@
       </div>
     </div>
     <p class="description-text">
-      Hi! My name is Siegfried. <br />I am a WebDeveloper. <br />I use HTML, CSS, JavaScript and Vue.js.
+      Hi! My name is Siegfried. <br />I am a WebDeveloper. <br />I use HTML,
+      CSS, JavaScript and Vue.js.
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -128,7 +129,7 @@ body {
 
 .rightbox {
   margin-left: 496px;
-  margin-top: 3px;
+  margin-top: -10px;
 }
 
 .name {
@@ -172,7 +173,8 @@ body {
 }
 
 .eyes {
-  margin-left: -240px;
+  margin-left: 493px;
+  margin-top: -360px;
 }
 
 .nose {
@@ -210,6 +212,7 @@ body {
   border: 1px solid #b90000;
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
+  margin-top: 56px;
 }
 
 .circles {

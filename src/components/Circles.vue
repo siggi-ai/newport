@@ -15,9 +15,8 @@ body {
   height: 300px;
   background-color: #1900ff;
   margin-left: 30em;
-  margin-top: -755px;
+  margin-top: -480px;
   border-radius: 50%;
-  opacity: 0.5;
   transition: 0.5s;
 }
 
