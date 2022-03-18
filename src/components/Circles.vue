@@ -14,8 +14,8 @@ body {
   width: 300px;
   height: 300px;
   background-color: #1900ff;
-    margin-left: 16em;
-    margin-top: -315px;
+  margin-left: 30em;
+  margin-top: -755px;
   border-radius: 50%;
   opacity: 0.5;
   transition: 0.5s;
@@ -26,6 +26,6 @@ body {
   height: 310px;
   border-radius: 50%;
   opacity: 1;
-  background-color: rgb(53 73 94);
+  background-color: #6a59ff;
 }
 </style>

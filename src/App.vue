@@ -161,7 +161,7 @@ body {
 }
 
 .description-text {
-  color: white;
+  color: #00ff89;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 100px;
   margin-top: -10px;
