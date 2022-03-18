@@ -10,7 +10,9 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-
+    <p class="description-text">
+      Hi! My name is Siegfried. <br />I am a WebDeveloper. <br />I use HTML, CSS, JavaScript and Vue.js.
+    </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
       <br />
@@ -156,6 +158,13 @@ body {
     width: 100%;
     display: block;
   }
+}
+
+.description-text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-top: -10px;
 }
 
 .eye2 {
