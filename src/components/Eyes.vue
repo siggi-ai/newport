@@ -7,7 +7,7 @@
     <div class="box1">
       <br />
       <div class="box2"></div>
-      <div class="box3"></div>
+      <!-- <div class="box3"></div> -->
     </div>
   </div>
 </template>
@@ -32,12 +32,12 @@ export default {
   margin-top: -6em;
   border-radius: 50%;
   /* transform: rotate(45deg); */
-  animation: spin 10s ease-in-out infinite;
-  animation-direction: alternate;
+  animation: spin 10s linear infinite;
+  /* animation-direction: alternate; */
 }
 @keyframes spin {
   0% {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);

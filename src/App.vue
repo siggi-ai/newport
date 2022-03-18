@@ -12,7 +12,7 @@
     </div>
     <p class="description-text">
       Hi! My name is Siegfried. <br />I am a WebDeveloper. <br />I use HTML,
-      CSS, JavaScript and Vue.js.
+      CSS, JavaScript and Vue3.
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -38,16 +38,18 @@
 
     <br />
 
-    <ul class="listbox">
-      <li class="list">
-        <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
-      </li>
-      <li class="list">
-        <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
-      </li>
-      <li class="list">Movie Page</li>
-      <li class="list">Your website ?</li>
-    </ul>
+    <div>
+      <ul class="listbox">
+        <li class="list">
+          <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
+        </li>
+        <li class="list">
+          <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
+        </li>
+        <li class="list">Movie Page</li>
+        <li class="list">Your website ?</li>
+      </ul>
+    </div>
 
     <Circles class="circle" />
   </div>
@@ -128,8 +130,9 @@ body {
 }
 
 .rightbox {
-  margin-left: 496px;
-  margin-top: -10px;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 55px;
 }
 
 .name {
@@ -196,7 +199,7 @@ body {
 .description {
   font-family: "Bungee Hairline";
   font-size: 20px;
-  color: #fffdb2;
+  color: #000000;
 }
 
 .list {
