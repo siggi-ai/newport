@@ -11,8 +11,13 @@
       </div>
     </div>
     <p class="description-text">
-      Hi! My name is Siegfried. <br />I am a WebDeveloper. <br />I use HTML,
-      CSS, JavaScript and Vue3.
+      <string>Hi! My name is Siegfried.</string><br /><string
+        style="color: cornflowerblue"
+        >I am a WebDeveloper.</string
+      >
+      <br /><string style="color: chocolate"
+        >I use HTML, CSS, JavaScript and Vue3.</string
+      >
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -173,7 +178,7 @@ body {
   width: 200px;
   padding: 20px;
   border-radius: 3%;
-  background-color: indigo;
+  background-color: rgb(29, 29, 29);
 }
 
 .eye2 {
