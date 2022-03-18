@@ -5,7 +5,7 @@
       rel="stylesheet"
     />
     <div class="leftbox">
-      <div>
+      <div class="leftcontent">
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
@@ -80,6 +80,7 @@ console.log(square(x));
 <style>
 body {
   display: flex;
+  margin: 0 auto;
   padding: 40px;
   background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
   background-size: 400% 400%;
@@ -120,26 +121,27 @@ body {
 }
 
 .leftbox {
-  display: flex;
+  margin-left: 50px;
 }
 
 .rightbox {
-  margin-left: 288px;
-  margin-top: -100px;
+  margin-left: 496px;
+  margin-top: 3px;
 }
 
 .name {
   font-family: "Bungee Hairline";
-  font-size: 20px;
+  font-size: 58px;
   color: #61bdff;
 }
 
 .title {
   display: flex;
   font-family: "Bungee Hairline";
-  font-size: 20px;
+  font-size: 59px;
   color: #00ffdc;
   width: 100%;
+  margin-top: -72px;
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter 3s steps(50, end);
