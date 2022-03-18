@@ -121,7 +121,7 @@ body {
 .three-logos {
   width: auto;
   height: 75px;
-  margin-left: 15px;
+  margin-left: -200px;
   animation: fade 8s infinite;
 }
 
@@ -169,6 +169,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 100px;
   margin-top: -10px;
+  border: 1px solid white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 3%;
+  background-color: indigo;
 }
 
 .eye2 {
@@ -216,6 +221,7 @@ body {
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
   margin-top: 56px;
+  width: 580px;
 }
 
 .circles {
