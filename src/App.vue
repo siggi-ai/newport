@@ -12,12 +12,9 @@
     </div>
     <p class="description-text">
       <string>Hi! My name is Siegfried.</string><br /><string
-        style="color: cornflowerblue"
         >I am a WebDeveloper.</string
       >
-      <br /><string style="color: chocolate"
-        >I use HTML, CSS, JavaScript and Vue3.</string
-      >
+      <br /><string>I use HTML, CSS, JavaScript and Vue3.</string>
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -226,6 +223,7 @@ body {
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
   margin-top: 56px;
+  margin-left: 50px;
   width: 580px;
 }
 
