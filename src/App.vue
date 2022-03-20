@@ -14,7 +14,7 @@
       <string>Hi! My name is Siegfried.</string><br /><string
         >I am a WebDeveloper.</string
       >
-      <br /><string>I use HTML, CSS, JavaScript and Vue3.</string>
+      <br /><string>OPEN TO WORK</string>
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -109,6 +109,7 @@ body {
 .vue-logo {
   width: auto;
   height: 65px;
+  margin-top: 66px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
@@ -124,6 +125,7 @@ body {
   width: auto;
   height: 75px;
   margin-left: -200px;
+  margin-top: 56px;
   animation: fade 8s infinite;
 }
 
