@@ -109,7 +109,7 @@ body {
 .vue-logo {
   width: auto;
   height: 65px;
-  margin-top: 66px;
+  margin-top: 121px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
@@ -125,7 +125,7 @@ body {
   width: auto;
   height: 75px;
   margin-left: -200px;
-  margin-top: 56px;
+  margin-top: 111px;
   animation: fade 8s infinite;
 }
 
@@ -209,6 +209,7 @@ body {
   font-family: "Bungee Hairline";
   font-size: 20px;
   color: #000000;
+  margin-top: 60px;
 }
 
 .list {
@@ -224,9 +225,10 @@ body {
   border: 1px solid #b90000;
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
-  margin-top: 56px;
+  margin-top: 0px;
   margin-left: 50px;
   width: 580px;
+  padding: 20px;
 }
 
 .circles {
