@@ -14,7 +14,7 @@
       <string>Hi! My name is Siegfried.</string><br /><string
         >I am a WebDeveloper.</string
       >
-      <br /><string>OPEN TO WORK</string>
+      <br /><br /><string>OPEN TO WORK 🙂</string>
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -54,6 +54,7 @@
     </div>
 
     <Circles class="circle" />
+    <Circles class="circle2" />
   </div>
 </template>
 
@@ -172,12 +173,8 @@ body {
   color: #00ff89;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 100px;
-  margin-top: -10px;
-  border: 1px solid white;
+  margin-top: -30px;
   width: 200px;
-  padding: 20px;
-  border-radius: 3%;
-  background-color: rgb(29, 29, 29);
 }
 
 .eye2 {
@@ -237,5 +234,10 @@ body {
 
 .circle {
   margin-left: 200px;
+}
+
+.circle2 {
+  margin-top: 275px;
+  margin-left: 79px;
 }
 </style>
