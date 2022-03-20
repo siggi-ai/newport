@@ -28,11 +28,11 @@ export default {
   width: 100px;
   height: 100px;
   background-color: white;
-  margin-left: 15em;
+  margin-left: -6em;
   margin-top: -6em;
   border-radius: 50%;
   /* transform: rotate(45deg); */
-  animation: spin 10s linear infinite;
+  animation: spin 100s linear infinite;
   /* animation-direction: alternate; */
 }
 @keyframes spin {
