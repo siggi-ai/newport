@@ -240,4 +240,24 @@ body {
   margin-top: 275px;
   margin-left: 79px;
 }
+
+@media screen and (max-width: 540px) {
+  .name {
+    font-family: "Bungee Hairline";
+    font-size: 30px;
+    color: #61bdff;
+  }
+
+  .title {
+    display: flex;
+    font-family: "Bungee Hairline";
+    font-size: 30px;
+    color: #00ffdc;
+    width: 100%;
+    margin-top: -72px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 3s steps(50, end);
+  }
+}
 </style>
