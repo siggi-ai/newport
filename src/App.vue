@@ -267,7 +267,7 @@ body {
     width: 200px;
   }
   .listbox {
-    margin-top: 120px;
+    margin-top: 170px;
     margin-left: 50px;
     width: 280px;
     padding: 20px;
@@ -281,12 +281,18 @@ body {
     width: auto;
     height: 75px;
     margin-left: -200px;
-    margin-top: -30px;
+    margin-top: -10px;
   }
   .vue-logo {
-  width: auto;
-  height: 65px;
-  margin-top: -20px;
-}
+    width: auto;
+    height: 65px;
+    margin-top: 0px;
+  }
+  .description {
+    font-family: "Bungee Hairline";
+    font-size: 20px;
+    color: #000000;
+    margin-top: -60px;
+  }
 }
 </style>
