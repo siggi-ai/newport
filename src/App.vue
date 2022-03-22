@@ -267,22 +267,26 @@ body {
     width: 200px;
   }
   .listbox {
-    margin-top: 50px;
+    margin-top: 120px;
     margin-left: 50px;
     width: 280px;
     padding: 20px;
   }
   .rightbox {
-  display: flex;
-  margin-left: 80px;
-  margin-top: 70px;
-}
-.three-logos {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  .three-logos {
+    width: auto;
+    height: 75px;
+    margin-left: -200px;
+    margin-top: -30px;
+  }
+  .vue-logo {
   width: auto;
-  height: 75px;
-  margin-left: -200px;
-  margin-top: -30px;
-  animation: fade 8s infinite;
+  height: 65px;
+  margin-top: -20px;
 }
 }
 </style>
