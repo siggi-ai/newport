@@ -10,7 +10,7 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-    <p class="description-text">
+    <p class="self-description-text">
       <string>Hi! My name is Siegfried.</string><br /><string
         >I am a WebDeveloper.</string
       >
@@ -169,7 +169,7 @@ body {
   }
 }
 
-.description-text {
+.self-description-text {
   color: #00ff89;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 100px;
@@ -254,10 +254,17 @@ body {
     font-size: 30px;
     color: #00ffdc;
     width: 100%;
-    margin-top: -72px;
+    margin-top: -40px;
     overflow: hidden;
     white-space: nowrap;
     animation: typewriter 3s steps(50, end);
+  }
+  .self-description-text {
+    color: #00ff89;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: -10px;
+    width: 200px;
   }
 }
 </style>
