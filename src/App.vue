@@ -12,9 +12,10 @@
     </div>
     <p class="self-description-text">
       <string>Hi! My name is Siegfried.</string><br /><string
-        >I am a WebDeveloper.</string
+        >I am a Web - Developer.</string
       >
-      <br /><br /><string>OPEN TO WORK 🙂</string>
+      <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
+      <br /><br /><string style="color: red">smiley.face@gmx.de</string>
     </p>
     <div class="rightbox">
       <strong class="description">*websites using:</strong>
@@ -31,11 +32,8 @@
     <br />
     <div class="eyes">
       <Eyes class="eye1" />
-      <!-- <strong class="description">&#60;CSS Animation&#62;</strong> -->
       <Eyes class="eye2" />
-      <!-- <div class="nose"></div> -->
       <br />
-      <!-- <div class="mouth"></div> -->
     </div>
 
     <br />
@@ -183,22 +181,6 @@ body {
 .eyes {
   margin-left: 493px;
   margin-top: -360px;
-}
-
-.nose {
-  height: 30px;
-  width: 30px;
-  background-color: red;
-  margin-left: 330px;
-  border-radius: 50%;
-}
-
-.mouth {
-  height: 30px;
-  width: 60px;
-  background-color: rgb(0, 0, 0);
-  margin-left: 330px;
-  border-radius: 50%;
 }
 
 .description {
