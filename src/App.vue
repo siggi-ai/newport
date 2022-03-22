@@ -267,13 +267,22 @@ body {
     width: 200px;
   }
   .listbox {
-    border: 1px solid #b90000;
-    border-radius: 2%;
-    background-color: rgb(255, 255, 255);
-    margin-top: -10px;
+    margin-top: 50px;
     margin-left: 50px;
     width: 280px;
     padding: 20px;
   }
+  .rightbox {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+.three-logos {
+  width: auto;
+  height: 75px;
+  margin-left: -200px;
+  margin-top: -30px;
+  animation: fade 8s infinite;
+}
 }
 </style>
