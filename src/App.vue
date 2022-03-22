@@ -263,8 +263,17 @@ body {
     color: #00ff89;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
-    margin-top: -10px;
+    margin-top: 10px;
     width: 200px;
+  }
+  .listbox {
+    border: 1px solid #b90000;
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -10px;
+    margin-left: 50px;
+    width: 280px;
+    padding: 20px;
   }
 }
 </style>
