@@ -11,20 +11,16 @@ body {
 }
 
 .circle3 {
-  width: 140px;
-  height: 141px;
+  width: 500px;
+  height: 500px;
   background-color: #000000;
-  margin-left: 19em;
-  margin-top: -418px;
+  margin-left: 8.5em;
+  margin-top: -558px;
   border-radius: 50%;
   transition: 0.5s;
 }
 
 .circle3:hover {
-  width: 310px;
-  height: 310px;
-  border-radius: 50%;
-  opacity: 1;
   background-color: #6a59ff;
 }
 </style>

@@ -54,7 +54,6 @@
     </div>
 
     <Circles class="circle" />
-    <Circles class="circle2" />
   </div>
 </template>
 
@@ -233,15 +232,10 @@ body {
 }
 
 .circle {
-  margin-left: 200px;
+  margin-left: 700px;
 }
 
-.circle2 {
-  margin-top: 275px;
-  margin-left: 79px;
-}
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 680px) {
   .name {
     font-family: "Bungee Hairline";
     font-size: 30px;
