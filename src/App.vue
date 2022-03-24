@@ -12,7 +12,7 @@
     </div>
     <p class="self-description-text">
       <string>Hi! My name is Siegfried.</string><br /><string
-        >I am a Web - Developer!</string
+        >I am a Web - Developer!!!</string
       >
       <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
       <br /><br /><string style="color: red">smiley.face@gmx.de</string>
