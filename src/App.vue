@@ -4,8 +4,8 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <div class="leftbox">
-      <div class="leftcontent">
+    <div class="top-box">
+      <div class="top-content">
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
@@ -17,7 +17,7 @@
       <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
       <br /><br /><string style="color: red">smiley.face@gmx.de</string>
     </p>
-    <div class="rightbox">
+    <div class="bottom-box">
       <strong class="description">*websites using:</strong>
       <br />
       <img class="three-logos" :src="Logo3" />
@@ -104,6 +104,11 @@ body {
   }
 }
 
+.top-content {
+  margin: 0 auto;
+  width: 690px;
+}
+
 .vue-logo {
   width: auto;
   height: 65px;
@@ -125,16 +130,6 @@ body {
   margin-left: -200px;
   margin-top: 111px;
   animation: fade 8s infinite;
-}
-
-.leftbox {
-  margin-left: 50px;
-}
-
-.rightbox {
-  display: flex;
-  margin-left: 350px;
-  margin-top: 55px;
 }
 
 .name {
