@@ -134,7 +134,7 @@ body {
 .three-logos {
   width: auto;
   height: 75px;
-  margin-left: -200px;
+  margin-left: 500px;
   margin-top: 111px;
   animation: fade 8s infinite;
 }
@@ -173,7 +173,7 @@ body {
 }
 
 .eyes {
-  margin-left: 493px;
+  margin-left: 993px;
   margin-top: -360px;
 }
 
@@ -199,7 +199,7 @@ body {
   background-color: rgb(255, 255, 255);
   margin-top: 0px;
   margin-left: 50px;
-  width: 580px;
+  width: 320px;
   padding: 20px;
 }
 
