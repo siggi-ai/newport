@@ -197,8 +197,7 @@ body {
   border: 1px solid #b90000;
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
-  margin-top: 0px;
-  margin-left: 50px;
+  margin: 0 auto;
   width: 320px;
   padding: 20px;
 }
