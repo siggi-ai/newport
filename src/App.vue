@@ -182,6 +182,8 @@ body {
   font-size: 20px;
   color: #000000;
   margin-top: 60px;
+  margin: 0 auto;
+  width: 300px;
 }
 
 .list {
