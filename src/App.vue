@@ -17,14 +17,13 @@
       <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
       <br /><br /><string style="color: red">smiley.face@gmx.de</string>
     </p>
-    <div class="bottom-box">
-      <strong class="description">*websites using:</strong>
-      <br />
-      <img class="three-logos" :src="Logo3" />
-      &nbsp;
-      <img class="vue-logo" :src="Logo" />
-      <br />
-    </div>
+
+    <strong class="description">*websites using:</strong>
+    <br />
+    <img class="three-logos" :src="Logo3" />
+    &nbsp;
+    <img class="vue-logo" :src="Logo" />
+    <br />
 
     <br />
     <br />
