@@ -109,6 +109,13 @@ body {
   width: 690px;
 }
 
+.self-description-text {
+  color: #00ff89;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 350px;
+}
+
 .vue-logo {
   width: auto;
   height: 65px;
@@ -159,14 +166,6 @@ body {
     width: 100%;
     display: block;
   }
-}
-
-.self-description-text {
-  color: #00ff89;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 100px;
-  margin-top: -30px;
-  width: 200px;
 }
 
 .eye2 {
