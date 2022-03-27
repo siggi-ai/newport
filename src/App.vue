@@ -6,6 +6,7 @@
     />
     <div class="top-box">
       <div class="top-content">
+        <p>heute: {{currentDateTime()}}</p>
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
@@ -34,7 +35,6 @@
       <Eyes class="eye2" />
       <br />
     </div>
-
     <br />
 
     <div>
@@ -71,6 +71,26 @@ export default {
       Logo: Logo,
       Logo3: Logo3,
     };
+  },
+  methods: {
+    currentDateTime() {
+      const current = new Date();
+      const date =
+        current.getFullYear() +
+        "-" +
+        (current.getMonth() + 1) +
+        "-" +
+        current.getDate();
+      const time =
+        current.getHours() +
+        ":" +
+        current.getMinutes() +
+        ":" +
+        current.getSeconds();
+      const dateTime = date + " " + time;
+
+      return dateTime;
+    },
   },
 };
 let a = new Date();
