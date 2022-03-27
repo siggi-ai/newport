@@ -18,7 +18,7 @@
       <br /><br /><string style="color: red">smiley.face@gmx.de</string>
     </p>
 
-    <strong class="description">*websites using:</strong>
+    <p class="description">*websites using:</p>
     <br />
     <img class="three-logos" :src="Logo3" />
     &nbsp;
@@ -73,12 +73,8 @@ export default {
     };
   },
 };
-/* for (var i = 0, j = 10; i < 10; i++, j--) console.log(i * j); */
-var square = function (x) {
-  return x * x;
-};
-let x = 9;
-console.log(square(x));
+let a = new Date();
+console.log(a);
 </script>
 
 <style>
