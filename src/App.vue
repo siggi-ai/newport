@@ -6,7 +6,9 @@
     />
     <div class="top-box">
       <div class="top-content">
-        <strong class="date">heute: {{ currentDateTime() }}</strong>
+        <strong class="date"
+          >Datum: {{ currentDate() }} &nbsp;&nbsp; Uhrzeit: {{ currentTime() }}</strong
+        >
         <br />
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
@@ -74,23 +76,25 @@ export default {
     };
   },
   methods: {
-    currentDateTime() {
+    currentDate() {
       const current = new Date();
       const date =
-        current.getFullYear() +
-        "-" +
+        current.getDate() +
+        "." +
         (current.getMonth() + 1) +
-        "-" +
-        current.getDate();
+        "." +
+        current.getFullYear();
+      return date;
+    },
+    currentTime() {
+      const current = new Date();
       const time =
         current.getHours() +
         ":" +
         current.getMinutes() +
         ":" +
         current.getSeconds();
-      const dateTime = date + " " + time;
-
-      return dateTime;
+      return time;
     },
   },
 };
