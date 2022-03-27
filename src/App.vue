@@ -6,7 +6,8 @@
     />
     <div class="top-box">
       <div class="top-content">
-        <p>heute: {{currentDateTime()}}</p>
+        <strong class="date">heute: {{ currentDateTime() }}</strong>
+        <br />
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
@@ -117,6 +118,11 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.date {
+  font-family: "Bungee Hairline";
+  font-size: 20px;
 }
 
 .top-content {
