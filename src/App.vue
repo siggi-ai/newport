@@ -7,7 +7,8 @@
     <div class="top-box">
       <div class="top-content">
         <strong class="date"
-          >Datum: {{ currentDate() }} &nbsp;&nbsp; Uhrzeit: {{ currentTime() }}</strong
+          >Datum: {{ currentDate() }} &nbsp;&nbsp; Uhrzeit:
+          {{ localTime }}</strong
         >
         <br />
         <strong class="name">#Siegfried Hamm</strong>
@@ -73,6 +74,7 @@ export default {
     return {
       Logo: Logo,
       Logo3: Logo3,
+      localTime: " ",
     };
   },
   methods: {
@@ -86,7 +88,7 @@ export default {
         current.getFullYear();
       return date;
     },
-    currentTime() {
+    /* currentTime() {
       const current = new Date();
       const time =
         current.getHours() +
@@ -95,7 +97,16 @@ export default {
         ":" +
         current.getSeconds();
       return time;
+    }, */
+    showLocaleTime: function () {
+      var time = this;
+      setInterval(function () {
+        time.localTime = new Date().toLocaleTimeString();
+      }, 1000);
     },
+  },
+  mounted() {
+    this.showLocaleTime();
   },
 };
 let a = new Date();
