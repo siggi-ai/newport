@@ -15,9 +15,7 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-    <p class="self-description-text">
-      <br /><br /><button v-on:click="OpenWindow">old website</button>
-    </p>
+    <button v-on:click="OpenWindow" class="button-old">old website</button>
 
     <br />
     <img class="three-logos" :src="Logo3" />
@@ -30,7 +28,6 @@
     <br />
     <br />
     <div class="eyes">
-
       <br />
     </div>
     <br />
@@ -47,7 +44,6 @@
         <li class="list">Your website ?</li>
       </ul>
     </div>
-
   </div>
 </template>
 
@@ -57,9 +53,7 @@ import Logo from "./assets/logo.png";
 
 export default {
   name: "App",
-  components: {
-
-  },
+  components: {},
   data: function () {
     return {
       Logo: Logo,
@@ -129,11 +123,10 @@ body {
   width: 690px;
 }
 
-.self-description-text {
-  color: #00ff89;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 auto;
-  width: 350px;
+.button-old {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .vue-logo {
@@ -154,7 +147,7 @@ body {
 .three-logos {
   width: auto;
   height: 75px;
-  margin-left: 670px;
+  margin-left: 507px;
   margin-top: 111px;
   animation: fade 8s infinite;
 }
@@ -207,14 +200,13 @@ body {
 }
 
 .listbox {
-  border: 1px solid #b90000;
+  border: 1px solid #ffffff;
   border-radius: 2%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(168 238 255);
   margin: 0 auto;
-  margin-top: -10px;
+  margin-top: 10px;
   width: 500px;
   padding: 20px;
-
 }
 
 .circles {
