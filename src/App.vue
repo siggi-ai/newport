@@ -118,6 +118,11 @@ body {
   font-size: 20px;
 }
 
+.top-box {
+  margin: 0 auto;
+  width: 586px;
+}
+
 .top-content {
   margin: 0 auto;
   width: 690px;
