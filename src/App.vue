@@ -16,15 +16,9 @@
       </div>
     </div>
     <p class="self-description-text">
-      <string>Hi! My name is Siegfried.</string><br /><string
-        >I am a Web - Developer!!!</string
-      >
-      <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
-      <br /><br /><string style="color: red">smiley.face@gmx.de</string>
       <br /><br /><button v-on:click="OpenWindow">old website</button>
     </p>
 
-    <p class="description">*websites using:</p>
     <br />
     <img class="three-logos" :src="Logo3" />
     &nbsp;
@@ -36,8 +30,7 @@
     <br />
     <br />
     <div class="eyes">
-      <Eyes class="eye1" />
-      <Eyes class="eye2" />
+
       <br />
     </div>
     <br />
@@ -55,21 +48,17 @@
       </ul>
     </div>
 
-    <Circles class="circle" />
   </div>
 </template>
 
 <script>
 import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png";
-import Eyes from "./components/Eyes.vue";
-import Circles from "./components/Circles.vue";
 
 export default {
   name: "App",
   components: {
-    Eyes,
-    Circles,
+
   },
   data: function () {
     return {
@@ -208,14 +197,6 @@ body {
   margin-top: -360px;
 }
 
-.description {
-  font-family: "Bungee Hairline";
-  font-size: 20px;
-  color: #000000;
-  margin: 0 auto;
-  width: 300px;
-}
-
 .list {
   margin-left: 45px;
   font-family: "Bungee Hairline";
@@ -230,7 +211,7 @@ body {
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
-  margin-top: -55px;
+  margin-top: -10px;
   width: 500px;
   padding: 20px;
 

@@ -11,8 +11,8 @@ body {
 }
 
 .circle3 {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   background-color: #000000;
   margin-left: 8.5em;
   margin-top: -558px;
