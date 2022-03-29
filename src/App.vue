@@ -7,7 +7,7 @@
     <div class="top-box">
       <div class="top-content">
         <strong class="date"
-          >Datum: {{ currentDate() }} &nbsp;&nbsp; Uhrzeit:
+          >Datum - {{ currentDate() }} &nbsp;&nbsp; Uhrzeit -
           {{ localTime }}</strong
         >
         <br />
