@@ -21,6 +21,7 @@
       >
       <br /><br /><string>OPEN &nbsp;TO WORK &nbsp; ! 🙂</string>
       <br /><br /><string style="color: red">smiley.face@gmx.de</string>
+      <br /><br /><button v-on:click="OpenWindow">old website</button>
     </p>
 
     <p class="description">*websites using:</p>
@@ -88,21 +89,14 @@ export default {
         current.getFullYear();
       return date;
     },
-    /* currentTime() {
-      const current = new Date();
-      const time =
-        current.getHours() +
-        ":" +
-        current.getMinutes() +
-        ":" +
-        current.getSeconds();
-      return time;
-    }, */
     showLocaleTime: function () {
       var time = this;
       setInterval(function () {
         time.localTime = new Date().toLocaleTimeString();
       }, 1000);
+    },
+    OpenWindow: function () {
+      window.open("https://portfolio-siggi-ai.herokuapp.com/");
     },
   },
   mounted() {
@@ -110,7 +104,8 @@ export default {
   },
 };
 let a = new Date();
-console.log(a);
+let b = a.getDate();
+console.log(b);
 </script>
 
 <style>
