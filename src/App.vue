@@ -165,7 +165,7 @@ body {
 .three-logos {
   width: auto;
   height: 75px;
-  margin-left: 500px;
+  margin-left: 670px;
   margin-top: 111px;
   animation: fade 8s infinite;
 }
@@ -230,8 +230,10 @@ body {
   border-radius: 2%;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
-  width: 320px;
+  margin-top: -55px;
+  width: 500px;
   padding: 20px;
+
 }
 
 .circles {
