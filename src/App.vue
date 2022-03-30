@@ -15,7 +15,7 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-    <button v-on:click="OpenWindow" class="button-old">old website</button>
+    <button v-on:click="OpenWindow" class="button-old">my old website</button>
 
     <br />
     <img class="three-logos" :src="Logo3" />
