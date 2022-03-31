@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
@@ -92,6 +92,10 @@ console.log(b);
 </script>
 
 <style>
+.main {
+
+}
+
 body {
   display: flex;
   margin: 0 auto;
@@ -207,7 +211,7 @@ body {
 .listbox {
   border: 1px solid #ffffff;
   border-radius: 2%;
-  background-color: rgb(168 238 255);
+  color: rgb(168 238 255);
   margin: 0 auto;
   margin-top: 10px;
   width: 500px;
