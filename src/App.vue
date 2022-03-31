@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div>
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
@@ -95,9 +95,6 @@ console.log(b);
 </script>
 
 <style>
-.main {
-}
-
 a {
   color: white;
 }
