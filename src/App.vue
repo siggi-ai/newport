@@ -208,7 +208,7 @@ body {
   font-family: "Bungee Hairline";
   font-size: 20px;
   font-weight: bold;
-  color: #f30000;
+  color: #adff00;
   list-style: square;
 }
 
