@@ -17,24 +17,6 @@
     </div>
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
 
-    <br />
-    <div class="all-logos">
-      <img class="three-logos" :src="Logo3" />
-      &nbsp;
-      <img class="vue-logo" :src="Logo" />
-    </div>
-
-    <br />
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="eyes">
-      <br />
-    </div>
-    <br />
-
     <div>
       <ul class="listbox">
         <li class="list">
@@ -46,6 +28,11 @@
         <li class="list">Movie Page</li>
         <li class="list">Your website ?</li>
       </ul>
+      <div class="all-logos">
+        <img class="three-logos" :src="Logo3" />
+        &nbsp;
+        <img class="vue-logo" :src="Logo" />
+      </div>
     </div>
   </div>
 </template>
@@ -100,7 +87,6 @@ a {
 }
 
 body {
-  display: flex;
   margin: 0 auto;
   padding: 40px;
   background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
@@ -144,7 +130,7 @@ body {
 .vue-logo {
   width: auto;
   height: 65px;
-  margin-top: 121px;
+  margin-top: 120px;
   animation: fade 8s infinite;
 }
 @keyframes fade {
@@ -165,8 +151,9 @@ body {
 }
 
 .all-logos {
-  margin-top: 10px;
-  margin-left: 10px;
+  display: flex;
+  margin-top: -275px;
+  margin-left: 210px;
 }
 
 .name {
