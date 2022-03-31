@@ -18,9 +18,12 @@
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
 
     <br />
-    <img class="three-logos" :src="Logo3" />
-    &nbsp;
-    <img class="vue-logo" :src="Logo" />
+    <div class="all-logos">
+      <img class="three-logos" :src="Logo3" />
+      &nbsp;
+      <img class="vue-logo" :src="Logo" />
+    </div>
+
     <br />
 
     <br />
@@ -93,7 +96,6 @@ console.log(b);
 
 <style>
 .main {
-
 }
 
 a {
@@ -165,6 +167,11 @@ body {
   animation: fade 8s infinite;
 }
 
+.all-logos {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .name {
   font-family: "Bungee Hairline";
   font-size: 58px;
@@ -213,6 +220,8 @@ body {
 }
 
 .listbox {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ffffff;
   border-radius: 2%;
   color: rgb(168 238 255);
