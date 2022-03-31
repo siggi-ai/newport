@@ -96,6 +96,10 @@ console.log(b);
 
 }
 
+a {
+  color: white;
+}
+
 body {
   display: flex;
   margin: 0 auto;
