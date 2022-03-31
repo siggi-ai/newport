@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>hey there!</p>
     <router-link to="/">x</router-link>
   </div>
 </template>
@@ -12,4 +13,7 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+}
 </style>
