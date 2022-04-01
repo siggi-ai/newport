@@ -15,7 +15,6 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-    <button v-on:click="OpenWindow" class="button-old">my old website</button>
 
     <div>
       <div class="main-buttons">
@@ -41,8 +40,14 @@
         >
           C
         </button>
+        <button
+          v-on:click="tabActive = ''"
+          class="tab"
+          v-bind:class="{ 'tab-active': tabActive === '' }"
+        >
+          X
+        </button>
       </div>
-
     </div>
 
     <div class="listbox">
@@ -67,6 +72,7 @@
         <img class="vue-logo" :src="Logo" />
       </div> -->
     </div>
+    <button v-on:click="OpenWindow" class="button-old">my old website</button>
   </div>
 </template>
 
