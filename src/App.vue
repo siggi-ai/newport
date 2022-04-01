@@ -43,20 +43,28 @@
         <button
           v-on:click="tabActive = ''"
           class="tab"
-          v-bind:class="{ 'tab-active': tabActive === '' }"
+          v-bind:class="{ 'tab-active': tabActive === 'Tab1' }"
         >
           X
         </button>
       </div>
+      <div class="listbox">
+        <div>
+          <Tab1 v-if="tabActive === 'Tab1'" />
+          <TabA v-if="tabActive === 'TabA'" />
+          <TabB v-if="tabActive === 'TabB'" />
+          <TabC v-if="tabActive === 'TabC'" />
+        </div>
+      </div>
     </div>
 
-    <div class="listbox">
+    <!-- <div class="listbox">
       <div>
         <TabA v-if="tabActive === 'TabA'" />
         <TabB v-if="tabActive === 'TabB'" />
         <TabC v-if="tabActive === 'TabC'" />
       </div>
-      <!-- <ul class="listbox">
+      <ul class="listbox">
         <li class="list">
           <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
         </li>
@@ -70,8 +78,8 @@
         <img class="three-logos" :src="Logo3" />
         &nbsp;
         <img class="vue-logo" :src="Logo" />
-      </div> -->
-    </div>
+      </div>
+    </div> -->
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
   </div>
 </template>
@@ -79,6 +87,7 @@
 <script>
 /* import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png"; */
+import Tab1 from "./components/Tab1.vue";
 import TabA from "./components/TabA.vue";
 import TabB from "./components/TabB.vue";
 import TabC from "./components/TabC.vue";
@@ -86,6 +95,7 @@ import TabC from "./components/TabC.vue";
 export default {
   name: "Home",
   components: {
+    Tab1,
     TabA,
     TabB,
     TabC,
@@ -95,6 +105,7 @@ export default {
       /*       Logo: Logo,
       Logo3: Logo3, */
       localTime: " ",
+      tabActive: "Tab1",
     };
   },
   methods: {
@@ -291,8 +302,10 @@ body {
 }
 
 .main-buttons {
+  display: flex;
   margin: 0 auto;
-  width: 50px;
+  width: 20px;
+  float: left;
 }
 
 @media screen and (max-width: 680px) {
