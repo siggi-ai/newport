@@ -18,8 +18,8 @@
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
 
     <div>
-      <div class="main">
-        <h1>Dynamic Component</h1>
+      <div class="main-buttons">
+        <h4 class="button-list">my websites</h4>
         <button
           v-on:click="tabActive = 'TabA'"
           class="tab"
@@ -42,15 +42,16 @@
           C
         </button>
       </div>
+
+    </div>
+
+    <div class="listbox">
       <div>
         <TabA v-if="tabActive === 'TabA'" />
         <TabB v-if="tabActive === 'TabB'" />
         <TabC v-if="tabActive === 'TabC'" />
       </div>
-    </div>
-
-    <div>
-      <ul class="listbox">
+      <!-- <ul class="listbox">
         <li class="list">
           <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
         </li>
@@ -64,7 +65,7 @@
         <img class="three-logos" :src="Logo3" />
         &nbsp;
         <img class="vue-logo" :src="Logo" />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -242,6 +243,16 @@ body {
   list-style: square;
 }
 
+.button-list {
+  width: 200px;
+  margin-left: 45px;
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  font-weight: bold;
+  color: #adff00;
+  list-style: square;
+}
+
 .listbox {
   display: flex;
   flex-direction: column;
@@ -260,6 +271,22 @@ body {
 
 .circle {
   margin-left: 700px;
+}
+
+.tab {
+  color: rgb(115, 115, 226);
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  font-size: 30px;
+}
+.tab-active {
+  color: rgb(226, 115, 202);
+}
+
+.main-buttons {
+  margin: 0 auto;
+  width: 50px;
 }
 
 @media screen and (max-width: 680px) {
