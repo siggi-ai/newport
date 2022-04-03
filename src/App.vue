@@ -141,6 +141,9 @@ var a = [],
   i = 0;
 for (a[i++] in o) console.log(a);
 for (i in a) console.log(i);
+function square(x) { return x*x};
+const c = square(12);
+console.log(c);
 </script>
 
 <style>
