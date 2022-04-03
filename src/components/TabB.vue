@@ -1,5 +1,5 @@
 <template>
-  <div class="content">Content B</div>
+  <div class="content">My website Pokédex explores the Pokémon-API</div>
 </template>
 <script>
 export default {

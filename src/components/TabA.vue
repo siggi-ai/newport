@@ -1,5 +1,5 @@
 <template>
-  <div class="content">Content A</div>
+  <div class="content">My film-website imitates the feeling of a cinema.</div>
 </template>
 <script>
 export default {

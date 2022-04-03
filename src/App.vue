@@ -26,6 +26,7 @@
         >
           A
         </button>
+        <br /><br />
         <button
           v-on:click="tabActive = 'TabB'"
           class="tab"
@@ -133,9 +134,13 @@ export default {
     this.showLocaleTime();
   },
 };
-let a = new Date();
-let b = a.getDate();
-console.log(b);
+let d = new Date();
+console.log(d);
+var o = { x: 1, y: 2, z: 3 };
+var a = [],
+  i = 0;
+for (a[i++] in o) console.log(a);
+for (i in a) console.log(i);
 </script>
 
 <style>
@@ -280,6 +285,9 @@ body {
   margin-top: 10px;
   width: 500px;
   padding: 20px;
+  font-family: "Bungee Hairline";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .circles {
