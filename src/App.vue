@@ -82,6 +82,11 @@
       </div>
     </div> -->
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
+    <div class="sugg">
+      <h1>bored?</h1>
+      <Suggestions />
+      <br />
+    </div>
   </div>
 </template>
 
@@ -92,6 +97,7 @@ import Tab1 from "./components/Tab1.vue";
 import TabA from "./components/TabA.vue";
 import TabB from "./components/TabB.vue";
 import TabC from "./components/TabC.vue";
+import Suggestions from "./components/Suggestions.vue";
 
 export default {
   name: "Home",
@@ -100,6 +106,7 @@ export default {
     TabA,
     TabB,
     TabC,
+    Suggestions,
   },
   data: function () {
     return {
@@ -134,19 +141,18 @@ export default {
     this.showLocaleTime();
   },
 };
-let d = new Date();
-console.log(d);
-var o = { x: 1, y: 2, z: 3 };
-var a = [],
-  i = 0;
-for (a[i++] in o) console.log(a);
-for (i in a) console.log(i);
-function square(x) { return x*x};
-const c = square(12);
-console.log(c);
 </script>
 
 <style>
+.sugg {
+  text-align: center;
+  margin-left: 0 auto;
+  padding: 30px;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Courier New", Courier, monospace;
+}
 a {
   color: white;
 }
