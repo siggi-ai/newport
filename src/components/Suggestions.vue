@@ -40,6 +40,7 @@ export default {
 .sugg-box {
   border: 1px solid blue;
   padding: 25px;
+  color: white;
 }
 .sugg-button {
   height: 47px;

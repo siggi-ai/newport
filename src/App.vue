@@ -16,13 +16,12 @@
       </div>
     </div>
     <div>
-      <div class="listbox">
-      </div>
+      <div class="listbox"></div>
     </div>
 
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
     <div class="sugg">
-      <h1>bored?</h1>
+      <h1 class="bored">bored?</h1>
       <Suggestions />
       <br />
     </div>
@@ -83,6 +82,9 @@ export default {
   margin: 0 auto;
   width: 500px;
   font-family: "Courier New", Courier, monospace;
+}
+.bored {
+  font-family: "Bungee Hairline";
 }
 a {
   color: white;
