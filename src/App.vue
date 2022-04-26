@@ -173,6 +173,7 @@ body {
   font-family: "Bungee Hairline";
   font-size: 58px;
   color: #61bdff;
+  line-height: 150%;
 }
 
 .title {
@@ -185,7 +186,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter 3s steps(50, end);
-  margin-top: -90px;
+  margin-top: -45px;
 }
 
 @keyframes typewriter {
@@ -235,7 +236,7 @@ body {
   color: rgb(168 238 255);
   margin: 0 auto;
   margin-top: 10px;
-  width: 500px;
+  width: 250px;
   padding: 20px;
   font-family: "Bungee Hairline";
   font-weight: bold;
