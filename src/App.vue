@@ -15,72 +15,11 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-
     <div>
-      <div class="main-buttons">
-        <h4 class="button-list">my websites</h4>
-        <button
-          v-on:click="tabActive = 'TabA'"
-          class="tab"
-          v-bind:class="{ 'tab-active': tabActive === 'TabA' }"
-        >
-          A
-        </button>
-        <br /><br />
-        <button
-          v-on:click="tabActive = 'TabB'"
-          class="tab"
-          v-bind:class="{ 'tab-active': tabActive === 'TabB' }"
-        >
-          B
-        </button>
-        <button
-          v-on:click="tabActive = 'TabC'"
-          class="tab"
-          v-bind:class="{ 'tab-active': tabActive === 'TabC' }"
-        >
-          C
-        </button>
-        <button
-          v-on:click="tabActive = ''"
-          class="tab"
-          v-bind:class="{ 'tab-active': tabActive === 'Tab1' }"
-        >
-          X
-        </button>
-      </div>
       <div class="listbox">
-        <div>
-          <Tab1 v-if="tabActive === 'Tab1'" />
-          <TabA v-if="tabActive === 'TabA'" />
-          <TabB v-if="tabActive === 'TabB'" />
-          <TabC v-if="tabActive === 'TabC'" />
-        </div>
       </div>
     </div>
 
-    <!-- <div class="listbox">
-      <div>
-        <TabA v-if="tabActive === 'TabA'" />
-        <TabB v-if="tabActive === 'TabB'" />
-        <TabC v-if="tabActive === 'TabC'" />
-      </div>
-      <ul class="listbox">
-        <li class="list">
-          <a href="https://laughing-minsky-d5d277.netlify.app/">travel blog</a>
-        </li>
-        <li class="list">
-          <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
-        </li>
-        <li class="list">Movie Page</li>
-        <li class="list">Your website ?</li>
-      </ul>
-      <div class="all-logos">
-        <img class="three-logos" :src="Logo3" />
-        &nbsp;
-        <img class="vue-logo" :src="Logo" />
-      </div>
-    </div> -->
     <button v-on:click="OpenWindow" class="button-old">my old website</button>
     <div class="sugg">
       <h1>bored?</h1>
@@ -93,19 +32,11 @@
 <script>
 /* import Logo3 from "../public/images/logos.png";
 import Logo from "./assets/logo.png"; */
-import Tab1 from "./components/Tab1.vue";
-import TabA from "./components/TabA.vue";
-import TabB from "./components/TabB.vue";
-import TabC from "./components/TabC.vue";
 import Suggestions from "./components/Suggestions.vue";
 
 export default {
   name: "Home",
   components: {
-    Tab1,
-    TabA,
-    TabB,
-    TabC,
     Suggestions,
   },
   data: function () {

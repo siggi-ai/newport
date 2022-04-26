@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <button v-on:click="getSugg" class="sugg-button"> load suggestions</button>
+      <button v-on:click="getSugg" class="sugg-button">suggestions</button>
     </div>
     <br />
     <div class="sugg-box">
@@ -43,8 +43,12 @@ export default {
 }
 .sugg-button {
   height: 47px;
-  width: 97px;
-  background-color: #59be00;
-  box-shadow: 5px 5px #888888;
+  width: 120px;
+  background-color: #000000;
+  box-shadow: 5px 4px #636363;
+  border-radius: 10px;
+  font-family: "Bungee Hairline";
+  font-weight: bold;
+  color:aqua;
 }
 </style>
