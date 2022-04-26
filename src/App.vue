@@ -24,8 +24,6 @@
         </button>
       </div>
     </div>
-
-    <button v-on:click="OpenWindow" class="button-old">my old website</button>
     <div class="sugg">
       <h1 class="bored">bored?</h1>
       <Suggestions />
