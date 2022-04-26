@@ -19,6 +19,9 @@
       <div class="listbox">
         <a href="https://laughing-minsky-d5d277.netlify.app/">Travel Blog</a>
         <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
+        <button v-on:click="OpenWindow" class="button-old">
+          my old website
+        </button>
       </div>
     </div>
 
@@ -32,8 +35,6 @@
 </template>
 
 <script>
-/* import Logo3 from "../public/images/logos.png";
-import Logo from "./assets/logo.png"; */
 import Suggestions from "./components/Suggestions.vue";
 
 export default {
@@ -43,8 +44,6 @@ export default {
   },
   data: function () {
     return {
-      /*       Logo: Logo,
-      Logo3: Logo3, */
       localTime: " ",
       tabActive: "Tab1",
     };
@@ -88,7 +87,8 @@ export default {
 }
 .bored {
   font-family: "Bungee Hairline";
-  margin-bottom: -18px;
+  font-size: 20px;
+  margin-bottom: -10px;
   margin-top: -60px;
 }
 a {
@@ -133,7 +133,13 @@ body {
 .button-old {
   display: flex;
   margin-top: 10px;
+  width: 136px;
+  border-radius: 4px;
   margin-left: 10px;
+  font-family: "Bungee Hairline";
+  background-color: #6cffff;
+  color: black;
+  font-weight: bold;
 }
 
 .vue-logo {
