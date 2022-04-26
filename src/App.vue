@@ -87,7 +87,7 @@ export default {
   font-family: "Bungee Hairline";
   font-size: 20px;
   margin-bottom: -10px;
-  margin-top: -60px;
+  margin-top: -25px;
 }
 a {
   color: white;
@@ -135,7 +135,7 @@ body {
   border-radius: 4px;
   margin-left: 10px;
   font-family: "Bungee Hairline";
-  background-color: #6cffff;
+  background-color: #6b7978;
   color: black;
   font-weight: bold;
 }
@@ -185,6 +185,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter 3s steps(50, end);
+  margin-top: -90px;
 }
 
 @keyframes typewriter {
@@ -239,6 +240,7 @@ body {
   font-family: "Bungee Hairline";
   font-weight: bold;
   font-size: 30px;
+  margin-top: -10px;
 }
 
 .circles {
