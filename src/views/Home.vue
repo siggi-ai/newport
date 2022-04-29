@@ -1,15 +1,8 @@
 <template>
   <div>
-      <div>
+    <div>
       <strong class="name">#Siegfried Hamm</strong>
-        <strong class="title">&#60;WebDeveloper&#62;</strong>
-      </div>
-
-    <div class="sugg">
-      <h1 class="bored">already bored?</h1>
-      <Suggestions />
-      <br />
-      <h1>OR: take a look at my WEBPAGES!</h1>
+      <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
     <div class="listbox">
       <a href="https://laughing-minsky-d5d277.netlify.app/">Travel Blog</a>
@@ -20,10 +13,10 @@
 </template>
 
 <script>
-import Suggestions from "../components/Suggestions.vue"
+
 export default {
   name: "Home",
-  components: { Suggestions },
+  components: {  },
   data: function () {
     return {
       localTime: " ",
@@ -155,7 +148,7 @@ body {
 
 .name {
   font-family: "Bungee Hairline";
-  font-size: 58px;
+  font-size: 57px;
   color: #61bdff;
   line-height: 150%;
 }

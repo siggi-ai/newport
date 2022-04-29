@@ -12,7 +12,9 @@
         >
         <br />
         <br />
+        <router-link to="/">home</router-link>
         <router-link to="/about" class="sugg">about</router-link>
+        <router-link to="/bored" class="sugg">bored</router-link>
         <br />
         <br />
         <br />
