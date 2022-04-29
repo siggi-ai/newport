@@ -11,7 +11,10 @@
           {{ localTime }}</strong
         >
         <br />
+        <br />
         <router-link to="/about" class="sugg">about</router-link>
+        <br />
+        <br />
         <br />
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
