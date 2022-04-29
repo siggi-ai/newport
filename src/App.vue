@@ -11,7 +11,7 @@
           {{ localTime }}</strong
         >
         <br />
-        <router-link to="/" class="sugg">about</router-link>
+        <router-link to="/about" class="sugg">about</router-link>
         <br />
         <strong class="name">#Siegfried Hamm</strong>
         <strong class="title">&#60;WebDeveloper&#62;</strong>
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import Suggestions from "./components/Suggestions.vue";
+import Suggestions from "@/components/Suggestions.vue";
 
 export default {
   name: "Home",

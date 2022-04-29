@@ -26,19 +26,19 @@
     </div>
     <div class="sugg">
       <h1 class="bored">bored?</h1>
-      <Suggestions />
+
       <br />
     </div>
   </div>
 </template>
 
 <script>
-import Suggestions from "./components/Suggestions.vue";
+
 
 export default {
   name: "Home",
   components: {
-    Suggestions,
+
   },
   data: function () {
     return {
