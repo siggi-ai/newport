@@ -17,15 +17,7 @@
         <strong class="title">&#60;WebDeveloper&#62;</strong>
       </div>
     </div>
-    <div>
-      <div class="listbox">
-        <a href="https://laughing-minsky-d5d277.netlify.app/">Travel Blog</a>
-        <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
-        <button v-on:click="OpenWindow" class="button-old">
-          my old website
-        </button>
-      </div>
-    </div>
+    
     <div class="sugg">
       <h1 class="bored">bored?</h1>
       <Suggestions />
