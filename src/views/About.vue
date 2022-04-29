@@ -1,4 +1,6 @@
 <template>
-  <router-link to="/">home</router-link>
-  <div>WE ARE THE PEOPLE!</div>
+  <div>
+    <router-link to="/">home</router-link>
+    <div>WE ARE THE PEOPLE!</div>
+  </div>
 </template>
