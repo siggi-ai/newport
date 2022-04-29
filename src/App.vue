@@ -16,26 +16,18 @@
         <br />
         <br />
         <br />
-        <strong class="name">#Siegfried Hamm</strong>
-        <strong class="title">&#60;WebDeveloper&#62;</strong>
-      </div>
-    </div>
-    <div class="sugg">
-      <h1 class="bored">already bored?</h1>
-      <Suggestions />
-      <br />
-      <h1>OR: take a look at my WEBPAGES!</h1>
-    </div>
+        
   </div>
+    </div>
+    </div>
 </template>
 
 <script>
-import Suggestions from "@/components/Suggestions.vue";
 
 export default {
   name: "Home",
   components: {
-    Suggestions,
+
   },
   data: function () {
     return {

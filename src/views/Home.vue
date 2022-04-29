@@ -1,5 +1,16 @@
 <template>
   <div>
+      <div>
+      <strong class="name">#Siegfried Hamm</strong>
+        <strong class="title">&#60;WebDeveloper&#62;</strong>
+      </div>
+
+    <div class="sugg">
+      <h1 class="bored">already bored?</h1>
+      <Suggestions />
+      <br />
+      <h1>OR: take a look at my WEBPAGES!</h1>
+    </div>
     <div class="listbox">
       <a href="https://laughing-minsky-d5d277.netlify.app/">Travel Blog</a>
       <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
@@ -9,9 +20,10 @@
 </template>
 
 <script>
+import Suggestions from "../components/Suggestions.vue"
 export default {
   name: "Home",
-  components: {},
+  components: { Suggestions },
   data: function () {
     return {
       localTime: " ",
