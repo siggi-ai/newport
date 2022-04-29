@@ -16,19 +16,16 @@
         <br />
         <br />
         <br />
-        
+      </div>
+      <router-view />
+    </div>
   </div>
-    </div>
-    </div>
 </template>
 
 <script>
-
 export default {
   name: "Home",
-  components: {
-
-  },
+  components: {},
   data: function () {
     return {
       localTime: " ",
