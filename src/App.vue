@@ -12,7 +12,7 @@
         >
         <br />
         <br />
-        <router-link to="/">home</router-link>
+        <router-link to="/" class="sugg">home</router-link>
         <router-link to="/about" class="sugg">about</router-link>
         <router-link to="/bored" class="sugg">bored</router-link>
         <br />
@@ -62,6 +62,9 @@ export default {
 </script>
 
 <style>
+.text {
+  font-family: "Courier New", Courier, monospace;
+}
 .sugg {
   text-align: center;
   margin-left: 0 auto;

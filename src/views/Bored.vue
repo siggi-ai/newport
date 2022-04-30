@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="sugg">
-      <h1 class="bored">
+      <h1 class="text">
         bored? don't worry - everyone is bored from time to time - let me help
         you:
       </h1>

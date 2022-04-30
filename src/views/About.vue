@@ -1,6 +1,5 @@
 <template>
   <div>
-    <router-link to="/">home</router-link>
-    <div>WE ARE THE PEOPLE!</div>
+    <div class="text">This is a portfolio-website created by Siegfried Hamm.</div>
   </div>
 </template>
