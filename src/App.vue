@@ -12,14 +12,15 @@
         >
         <br />
         <br />
-        <router-link to="/" class="sugg">home</router-link>
-        <router-link to="/about" class="sugg">about</router-link>
-        <router-link to="/bored" class="sugg">bored</router-link>
+        <router-link to="/" class="menu-bar">home</router-link>
+        <router-link to="/about" class="menu-bar">about</router-link>
+        <router-link to="/bored" class="menu-bar">bored</router-link>
         <br />
         <br />
         <br />
       </div>
       <router-view />
+      <Circles />
     </div>
   </div>
 </template>
@@ -62,6 +63,16 @@ export default {
 </script>
 
 <style>
+.menu-bar {
+  text-align: center;
+  margin-left: 0 auto;
+  padding: 30px;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Courier New", Courier, monospace;
+  color:#00ff89;
+}
 .text {
   font-family: "Courier New", Courier, monospace;
   color: white;
@@ -243,17 +254,6 @@ body {
 
 .circle {
   margin-left: 700px;
-}
-
-.tab {
-  color: rgb(115, 115, 226);
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
-  font-size: 30px;
-}
-.tab-active {
-  color: rgb(226, 115, 202);
 }
 
 .main-buttons {
