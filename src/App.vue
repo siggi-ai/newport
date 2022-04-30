@@ -204,16 +204,6 @@ body {
   }
 }
 
-.eye2 {
-  margin-left: 184px;
-  margin-top: -100px;
-}
-
-.eyes {
-  margin-left: 300px;
-  margin-top: -250px;
-}
-
 .list {
   margin-left: 45px;
   font-family: "Bungee Hairline";

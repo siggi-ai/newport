@@ -177,12 +177,13 @@ body {
 }
 
 .eye2 {
-  margin-left: 120px;
+  margin-left: 172px;
+  margin-top: -100px;
 }
 
 .eyes {
-  margin-left: 993px;
-  margin-top: -360px;
+  margin-left: 308px;
+  margin-top: -287px;
 }
 
 .list {
