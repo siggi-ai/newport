@@ -1,12 +1,22 @@
 <template>
   <div>
-    <div class="text">This is a portfolio-website created by Siegfried Hamm.</div>
-    <img src="../../src/assets/profil6.png" alt="self-portrait" class="self-portrait">
+    <p class="text">
+      This is a portfolio-website created by Siegfried Hamm in 2022.
+    </p>
+    <p class="text">
+      please write me an e-mail, if you need my help: smiley.face@gmx.de
+    </p>
+    <img
+      src="../../src/assets/profil6.png"
+      alt="self-portrait"
+      class="self-portrait"
+    />
   </div>
 </template>
 
 <style>
 .self-portrait {
-  width: 300px;
+  width: 200px;
+  margin-top: 50px;
 }
 </style>
