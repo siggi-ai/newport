@@ -4,19 +4,15 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
-    <div class="listbox">
-      <a href="https://laughing-minsky-d5d277.netlify.app/">Travel Blog</a>
-      <a href="https://reverent-hawking-70f389.netlify.app/">Pokédex</a>
-      <button v-on:click="OpenWindow" class="button-old">my old website</button>
-    </div>
+    <Circles />
   </div>
 </template>
 
 <script>
-
+import Circles from "../components/Circles.vue"
 export default {
   name: "Home",
-  components: {  },
+  components: { Circles },
   data: function () {
     return {
       localTime: " ",

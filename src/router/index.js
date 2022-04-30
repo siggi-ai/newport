@@ -19,6 +19,12 @@ const routes = [
 
     component: () => import("../views/Bored.vue"),
   },
+  {
+    path: "/websites",
+    name: "Websites",
+
+    component: () => import("../views/Websites.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -13,14 +13,14 @@
         <br />
         <br />
         <router-link to="/" class="menu-bar">home</router-link>
+        <router-link to="/websites" class="menu-bar">websites</router-link>
         <router-link to="/about" class="menu-bar">about</router-link>
-        <router-link to="/bored" class="menu-bar">bored</router-link>
+        <router-link to="/bored" class="menu-bar">bored?</router-link>
         <br />
         <br />
         <br />
       </div>
       <router-view />
-      <Circles />
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@
 <script>
 export default {
   name: "Home",
-  components: {},
+
   data: function () {
     return {
       localTime: " ",
@@ -71,7 +71,7 @@ export default {
   margin: 0 auto;
   width: 500px;
   font-family: "Courier New", Courier, monospace;
-  color:#00ff89;
+  color: #00ff89;
 }
 .text {
   font-family: "Courier New", Courier, monospace;
@@ -246,14 +246,6 @@ body {
   font-weight: bold;
   font-size: 30px;
   margin-top: -10px;
-}
-
-.circles {
-  margin-left: 200px;
-}
-
-.circle {
-  margin-left: 700px;
 }
 
 .main-buttons {

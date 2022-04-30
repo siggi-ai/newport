@@ -15,7 +15,7 @@ body {
   height: 300px;
   background-color: #000000;
   margin-left: 8.5em;
-  margin-top: -558px;
+  margin-top: -0px;
   border-radius: 50%;
   transition: 0.5s;
 }
