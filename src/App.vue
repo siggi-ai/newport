@@ -64,6 +64,7 @@ export default {
 <style>
 .text {
   font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 .sugg {
   text-align: center;
@@ -79,6 +80,7 @@ export default {
   font-size: 20px;
   margin-bottom: -10px;
   margin-top: -25px;
+  color: white;
 }
 a {
   color: white;
