@@ -5,14 +5,17 @@
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
     <Circles />
+    <Eyes class="eyes" />
+    <Eyes class="eye2" />
   </div>
 </template>
 
 <script>
 import Circles from "../components/Circles.vue"
+import Eyes from "../components/Eyes.vue"
 export default {
   name: "Home",
-  components: { Circles },
+  components: { Circles, Eyes },
   data: function () {
     return {
       localTime: " ",

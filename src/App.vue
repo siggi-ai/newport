@@ -205,12 +205,13 @@ body {
 }
 
 .eye2 {
-  margin-left: 120px;
+  margin-left: 184px;
+  margin-top: -100px;
 }
 
 .eyes {
-  margin-left: 993px;
-  margin-top: -360px;
+  margin-left: 300px;
+  margin-top: -250px;
 }
 
 .list {
