@@ -37,7 +37,7 @@ export default {
 .website-buttons {
   width: 250px;
   height: 80px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 30px;
   background: repeating-linear-gradient(
     45deg,

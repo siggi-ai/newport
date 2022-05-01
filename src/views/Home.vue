@@ -2,7 +2,7 @@
   <div>
     <div>
       <strong class="name">#Siegfried Hamm</strong>
-      <strong class="title">&#60;WebDeveloper&#62;</strong>
+      <strong class="title">&#60;Web-Developer&#62;</strong>
     </div>
   </div>
 </template>
@@ -73,10 +73,23 @@ body {
 }
 
 .name {
-  font-family: "Bungee Hairline";
-  font-size: 56px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 70px;
   color: #61bdff;
   line-height: 150%;
+}
+
+.title {
+  display: flex;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 70px;
+  color: #00ffdc;
+  width: 102%;
+  margin-top: -72px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 1.5s steps(14, end);
+  margin-top: 7px;
 }
 
 .first {
@@ -88,18 +101,6 @@ body {
   margin-top: -72px;
   overflow: hidden;
   white-space: nowrap;
-  margin-top: -45px;
-}
-.title {
-  display: flex;
-  font-family: "Bungee Hairline";
-  font-size: 59px;
-  color: #00ffdc;
-  width: 102%;
-  margin-top: -72px;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typewriter 1.5s steps(14, end);
   margin-top: -45px;
 }
 
