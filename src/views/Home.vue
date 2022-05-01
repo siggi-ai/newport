@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <strong class="name">#Siegfried Hamm</strong>
-      <strong class="title">&#60;Web-Developer&#62;</strong>
+      <p class="name">#Siegfried Hamm</p>
+      <p class="title">&#60;Web-Developer&#62;</p>
     </div>
   </div>
 </template>
@@ -73,23 +73,24 @@ body {
 }
 
 .name {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 69px;
   color: #61bdff;
   line-height: 150%;
+  margin-top: 20px;
 }
 
 .title {
   display: flex;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 70px;
   color: #00ffdc;
   width: 102%;
   margin-top: -72px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 1.5s steps(14, end);
-  margin-top: 7px;
+  animation: typewriter 1.5s steps(15, end);
+  margin-top: -70px;
 }
 
 .first {
@@ -188,21 +189,13 @@ body {
 
 @media screen and (max-width: 680px) {
   .name {
-    font-family: "Bungee Hairline";
     font-size: 40px;
-    color: #61bdff;
   }
 
   .title {
-    display: flex;
-    font-family: "Bungee Hairline";
     font-size: 40px;
-    color: #00ffdc;
     width: 101%;
     margin-top: -10px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter 1.5s steps(14, end);
   }
   .self-description-text {
     color: #00ff89;
