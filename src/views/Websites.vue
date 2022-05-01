@@ -1,8 +1,11 @@
 <template>
   <div>
     <div class="listbox">
-      <a v-on:click="OpenWindowTravel">Travel Blog</a>
-      <a v-on:click="OpenWindowPoke">Pokédex</a>
+      <div>
+        <button v-on:click="OpenWindowTravel" class="website-buttons">Travel Blog</button>
+        <button v-on:click="OpenWindowPoke" class="website-buttons">Pokédex</button>
+      </div>
+
       <button v-on:click="OpenWindow" class="button-old">my old website</button>
     </div>
   </div>
@@ -24,6 +27,10 @@ export default {
 };
 </script>
 <style scoped>
+.website-buttons {
+  width: 250px;
+  height: 80px;
+}
 .listbox {
   display: flex;
   flex-direction: column;

@@ -30,7 +30,7 @@ export default {
   background-color: white;
   border-radius: 50%;
   /* transform: rotate(45deg); */
-  animation: spin 20s linear infinite;
+  animation: spin 3s linear infinite;
   /* animation-direction: alternate; */
 }
 @keyframes spin {
