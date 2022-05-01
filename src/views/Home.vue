@@ -43,11 +43,6 @@ body {
   }
 }
 
-.date {
-  font-family: "Bungee Hairline";
-  font-size: 20px;
-}
-
 .vue-logo {
   width: auto;
   height: 65px;
