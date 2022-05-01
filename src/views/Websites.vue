@@ -15,3 +15,16 @@ export default {
   },
 };
 </script>
+<style scoped>
+.button-old {
+  display: flex;
+  margin-top: 10px;
+  width: 136px;
+  border-radius: 4px;
+  margin-left: 57px;
+  font-family: "Bungee Hairline";
+  background-color: #6b7978;
+  color: black;
+  font-weight: bold;
+}
+</style>

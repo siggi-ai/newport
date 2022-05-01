@@ -17,3 +17,21 @@ export default {
   components: { Suggestions },
 };
 </script>
+<style scoped>
+.sugg {
+  text-align: center;
+  margin-left: 0 auto;
+  padding: 30px;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Courier New", Courier, monospace;
+}
+.bored {
+  font-family: "Bungee Hairline";
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-top: -25px;
+  color: white;
+}
+</style>
