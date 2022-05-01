@@ -237,5 +237,20 @@ body {
     height: 65px;
     margin-top: 0px;
   }
+  .bored {
+    width: 305px;
+  }
+  .sugg {
+    width: 445px;
+  }
+  .sugg-button {
+    margin-left: -196px;
+  }
+  .sugg-box {
+    width: 260px;
+  }
+  .text {
+    width: 450px;
+}
 }
 </style>
