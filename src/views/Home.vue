@@ -197,7 +197,7 @@ body {
     font-family: "Bungee Hairline";
     font-size: 30px;
     color: #00ffdc;
-    width: 100%;
+    width: 102%;
     margin-top: -40px;
     overflow: hidden;
     white-space: nowrap;
