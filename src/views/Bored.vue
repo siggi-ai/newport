@@ -25,10 +25,10 @@ export default {
   font-size: 1rem;
   margin: 0 auto;
   width: 500px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .bored {
-  font-family: "Bungee Hairline";
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
   margin-bottom: -10px;
   margin-top: -25px;

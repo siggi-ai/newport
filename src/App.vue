@@ -4,6 +4,7 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"> 
     <div class="top-box">
       <div class="top-content">
         <strong class="date"
@@ -68,11 +69,11 @@ export default {
   font-size: 1rem;
   margin: 0 auto;
   width: 500px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Julius Sans One', sans-serif;
   color: #00ff89;
 }
 .text {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Julius Sans One', sans-serif;
   color: white;
 }
 
@@ -144,13 +145,6 @@ body {
   margin-left: 210px;
 }
 
-.name {
-  font-family: "Bungee Hairline";
-  font-size: 58px;
-  color: #61bdff;
-  line-height: 150%;
-}
-
 @media screen and (max-width: 680px) {
   .menu-bar {
     text-align: center;
@@ -159,7 +153,7 @@ body {
     font-size: 1rem;
     margin: 0 auto;
     width: 500px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Orbitron', sans-serif;
     color: #00ff89;
   }
   
