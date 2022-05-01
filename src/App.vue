@@ -32,7 +32,6 @@ export default {
   data: function () {
     return {
       localTime: " ",
-      tabActive: "Tab1",
     };
   },
   methods: {
