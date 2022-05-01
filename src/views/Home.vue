@@ -90,6 +90,17 @@ body {
   line-height: 150%;
 }
 
+.first {
+  display: flex;
+  font-family: "Bungee Hairline";
+  font-size: 59px;
+  color: #00ffdc;
+  width: 100%;
+  margin-top: -72px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: -45px;
+}
 .title {
   display: flex;
   font-family: "Bungee Hairline";
@@ -99,7 +110,7 @@ body {
   margin-top: -72px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 3s steps(50, end);
+  animation: typewriter 1.5s steps(14, end);
   margin-top: -45px;
 }
 
@@ -201,7 +212,7 @@ body {
     margin-top: -40px;
     overflow: hidden;
     white-space: nowrap;
-    animation: typewriter 3s steps(50, end);
+    animation: typewriter 1s steps(50, end);
   }
   .self-description-text {
     color: #00ff89;

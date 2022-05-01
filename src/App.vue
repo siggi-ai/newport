@@ -149,30 +149,6 @@ body {
   line-height: 150%;
 }
 
-.title {
-  display: flex;
-  font-family: "Bungee Hairline";
-  font-size: 59px;
-  color: #00ffdc;
-  width: 100%;
-  margin-top: -72px;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typewriter 3s steps(50, end);
-  margin-top: -45px;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-    display: none;
-  }
-  to {
-    width: 100%;
-    display: block;
-  }
-}
-
 @media screen and (max-width: 680px) {
   .name {
     font-family: "Bungee Hairline";
