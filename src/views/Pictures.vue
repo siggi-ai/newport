@@ -122,8 +122,9 @@ body {
 }
 
 .container {
-  margin: 45px;
-  margin-left: -239px;
+  margin: -100px;
+  margin-left: -100px;
+  margin-top: 20px;
   display: grid;
   grid-gap: 10px;
   background-color: #000000;
