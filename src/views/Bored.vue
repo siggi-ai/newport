@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="sugg">
-      <h1 class="bored">
+      <p class="bored">
         bored? don't worry - everyone is bored from time to time - let me help
         you:
-      </h1>
+      </p>
       <br />
       <Suggestions />
     </div>
@@ -22,16 +22,17 @@ export default {
   text-align: center;
   margin-left: 0 auto;
   padding: 30px;
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0 auto;
   width: 500px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family:'Courier New', Courier, monospace;
 }
 .bored {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 20px;
-  margin-bottom: -10px;
-  margin-top: -25px;
+  font-size: 29px;
+  margin-bottom: 0px;
+  margin-top: -15px;
   color: white;
 }
+
 </style>

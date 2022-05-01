@@ -38,18 +38,22 @@ export default {
 </script>
 <style>
 .sugg-box {
-  border: 1px solid blue;
+  border: 2px solid #00d7ff;
   padding: 25px;
   color: white;
+  color: #fffc00;
+  font-family: "Julius Sans One";
+  border-radius: 9px;
 }
 .sugg-button {
-  height: 47px;
-  width: 120px;
+  height: 53px;
+  width: 182px;
   background-color: #000000;
   box-shadow: 5px 4px #636363;
   border-radius: 10px;
   font-family: "Bungee Hairline";
   font-weight: bold;
-  color:aqua;
+  color: aqua;
+  font-size: 20px;
 }
 </style>

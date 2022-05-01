@@ -15,10 +15,10 @@
         <br />
         <router-link to="/" class="menu-bar">home</router-link>
         <router-link to="/websites" class="menu-bar">websites</router-link>
-        <router-link to="/about" class="menu-bar">about</router-link>
-        <router-link to="/bored" class="menu-bar">bored?</router-link>
         <router-link to="/animation" class="menu-bar">animation</router-link>
         <router-link to="/pictures" class="menu-bar">pictures</router-link>
+        <router-link to="/about" class="menu-bar">about</router-link>
+        <router-link to="/bored" class="menu-bar">bored?</router-link>
         <br />
         <br />
         <br />
@@ -103,7 +103,8 @@ body {
 
 .date {
   font-family: "Bungee Hairline";
-  font-size: 20px;
+  font-size: 28px;
+  font-weight: bolder;
 }
 
 .top-box {
@@ -153,7 +154,6 @@ body {
     font-size: 1rem;
     margin: 0 auto;
     width: 500px;
-    font-family: 'Orbitron', sans-serif;
     color: #00ff89;
   }
   
@@ -185,6 +185,9 @@ body {
     width: auto;
     height: 65px;
     margin-top: 0px;
+  }
+  .date {
+    font-size: 20px;
   }
 }
 </style>

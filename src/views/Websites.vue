@@ -2,13 +2,17 @@
   <div>
     <div class="listbox">
       <div>
-        <button v-on:click="OpenWindowTravel" class="website-buttons">Travel Blog</button>
+        <button v-on:click="OpenWindowTravel" class="website-buttons">
+          Travel Blog
+        </button>
         <br />
         <br />
-        <button v-on:click="OpenWindowPoke" class="website-buttons">Pokédex</button>
+        <button v-on:click="OpenWindowPoke" class="website-buttons">
+          Pokédex
+        </button>
       </div>
-        <br />
-        <br />
+      <br />
+      <br />
       <button v-on:click="OpenWindow" class="button-old">my old website</button>
     </div>
   </div>
@@ -33,15 +37,15 @@ export default {
 .website-buttons {
   width: 250px;
   height: 80px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 30px;
   background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
 }
 .listbox {
   display: flex;
@@ -53,7 +57,7 @@ export default {
   margin-top: 10px;
   width: 250px;
   padding: 20px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
   font-size: 30px;
   margin-top: -10px;
@@ -65,6 +69,7 @@ export default {
   border-radius: 4px;
   margin-left: 57px;
   font-family: "Bungee Hairline";
+  font-size: 20px;
   background-color: #6b7978;
   color: black;
   font-weight: bold;
