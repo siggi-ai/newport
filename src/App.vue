@@ -17,6 +17,7 @@
         <router-link to="/about" class="menu-bar">about</router-link>
         <router-link to="/bored" class="menu-bar">bored?</router-link>
         <router-link to="/animation" class="menu-bar">animation</router-link>
+        <router-link to="/animation" class="menu-bar">pictures</router-link>
         <br />
         <br />
         <br />
@@ -63,7 +64,7 @@ export default {
 .menu-bar {
   text-align: center;
   margin-left: 0 auto;
-  padding: 30px;
+  padding: 16px;
   font-size: 1rem;
   margin: 0 auto;
   width: 500px;
@@ -151,16 +152,26 @@ body {
 }
 
 @media screen and (max-width: 680px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    font-family: "Courier New", Courier, monospace;
+    color: #00ff89;
+  }
   .name {
     font-family: "Bungee Hairline";
-    font-size: 30px;
+    font-size: 40px;
     color: #61bdff;
   }
 
   .title {
     display: flex;
     font-family: "Bungee Hairline";
-    font-size: 30px;
+    font-size: 40px;
     color: #00ffdc;
     width: 100%;
     margin-top: -40px;
