@@ -174,48 +174,6 @@ body {
   }
 }
 
-.list {
-  margin-left: 45px;
-  font-family: "Bungee Hairline";
-  font-size: 20px;
-  font-weight: bold;
-  color: #adff00;
-  list-style: square;
-}
-
-.button-list {
-  width: 200px;
-  margin-left: 45px;
-  font-family: "Bungee Hairline";
-  font-size: 20px;
-  font-weight: bold;
-  color: #adff00;
-  list-style: square;
-}
-
-.listbox {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ffffff;
-  border-radius: 2%;
-  color: rgb(168 238 255);
-  margin: 0 auto;
-  margin-top: 10px;
-  width: 250px;
-  padding: 20px;
-  font-family: "Bungee Hairline";
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -10px;
-}
-
-.main-buttons {
-  display: flex;
-  margin: 0 auto;
-  width: 20px;
-  float: left;
-}
-
 @media screen and (max-width: 680px) {
   .name {
     font-family: "Bungee Hairline";
