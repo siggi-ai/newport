@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <p class="name">#Siegfried Hamm</p>
-      <p class="title">&#60;Web-Developer&#62;</p>
+      <strong class="name">#Siegfried Hamm</strong>
+      <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
   </div>
 </template>
@@ -73,8 +73,8 @@ body {
 }
 
 .name {
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 69px;
+  font-family: "Bungee Hairline";
+  font-size: 56px;
   color: #61bdff;
   line-height: 150%;
   margin-top: 20px;
@@ -82,15 +82,16 @@ body {
 
 .title {
   display: flex;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 70px;
+  font-family: "Bungee Hairline";
+  font-weight: bolder;
+  font-size: 56px;
   color: #00ffdc;
   width: 102%;
   margin-top: -72px;
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter 1.5s steps(15, end);
-  margin-top: -70px;
+  margin-top: -40px;
 }
 
 .first {
