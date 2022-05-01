@@ -193,14 +193,14 @@ body {
 @media screen and (max-width: 680px) {
   .name {
     font-family: "Bungee Hairline";
-    font-size: 30px;
+    font-size: 40px;
     color: #61bdff;
   }
 
   .title {
     display: flex;
     font-family: "Bungee Hairline";
-    font-size: 30px;
+    font-size: 40px;
     color: #00ffdc;
     width: 101%;
     margin-top: -10px;

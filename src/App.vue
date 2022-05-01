@@ -162,23 +162,7 @@ body {
     font-family: "Courier New", Courier, monospace;
     color: #00ff89;
   }
-  .name {
-    font-family: "Bungee Hairline";
-    font-size: 40px;
-    color: #61bdff;
-  }
-
-  .title {
-    display: flex;
-    font-family: "Bungee Hairline";
-    font-size: 40px;
-    color: #00ffdc;
-    width: 100%;
-    margin-top: -40px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter 3s steps(50, end);
-  }
+  
   .self-description-text {
     color: #00ff89;
     font-family: Arial, Helvetica, sans-serif;
