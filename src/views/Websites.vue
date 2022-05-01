@@ -10,8 +10,10 @@
 <script>
 export default {
   name: "Websites",
-  OpenWindow: function () {
+  methods: {
+    OpenWindow: function () {
     window.open("https://portfolio-siggi-ai.herokuapp.com/");
+    },
   },
 };
 </script>

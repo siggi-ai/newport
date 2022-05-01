@@ -19,32 +19,7 @@ export default {
   data: function () {
     return {
       localTime: " ",
-      tabActive: "Tab1",
     };
-  },
-  methods: {
-    currentDate() {
-      const current = new Date();
-      const date =
-        current.getDate() +
-        "." +
-        (current.getMonth() + 1) +
-        "." +
-        current.getFullYear();
-      return date;
-    },
-    showLocaleTime: function () {
-      var time = this;
-      setInterval(function () {
-        time.localTime = new Date().toLocaleTimeString();
-      }, 1000);
-    },
-    OpenWindow: function () {
-      window.open("https://portfolio-siggi-ai.herokuapp.com/");
-    },
-  },
-  mounted() {
-    this.showLocaleTime();
   },
 };
 </script>
