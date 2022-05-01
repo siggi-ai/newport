@@ -7,3 +7,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: "Websites",
+  OpenWindow: function () {
+      window.open("https://portfolio-siggi-ai.herokuapp.com/");
+    },
+}
+</script>
