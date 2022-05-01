@@ -4,18 +4,12 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
-    <Circles />
-    <Eyes class="eyes" />
-    <Eyes class="eye2" />
   </div>
 </template>
 
 <script>
-import Circles from "../components/Circles.vue";
-import Eyes from "../components/Eyes.vue";
 export default {
   name: "Home",
-  components: { Circles, Eyes },
   data: function () {
     return {
       localTime: " ",
@@ -208,11 +202,11 @@ body {
     font-family: "Bungee Hairline";
     font-size: 30px;
     color: #00ffdc;
-    width: 102%;
-    margin-top: -40px;
+    width: 101%;
+    margin-top: -10px;
     overflow: hidden;
     white-space: nowrap;
-    animation: typewriter 1s steps(50, end);
+    animation: typewriter 1.5s steps(14, end);
   }
   .self-description-text {
     color: #00ff89;

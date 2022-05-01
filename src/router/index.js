@@ -25,6 +25,12 @@ const routes = [
 
     component: () => import("../views/Websites.vue"),
   },
+  {
+    path: "/animation",
+    name: "Animation",
+
+    component: () => import("../views/Animation.vue"),
+  },
 ];
 
 const router = createRouter({

@@ -16,6 +16,7 @@
         <router-link to="/websites" class="menu-bar">websites</router-link>
         <router-link to="/about" class="menu-bar">about</router-link>
         <router-link to="/bored" class="menu-bar">bored?</router-link>
+        <router-link to="/animation" class="menu-bar">animation</router-link>
         <br />
         <br />
         <br />
