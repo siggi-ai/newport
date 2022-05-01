@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Circles from "../components/Circles.vue"
-import Eyes from "../components/Eyes.vue"
+import Circles from "../components/Circles.vue";
+import Eyes from "../components/Eyes.vue";
 export default {
   name: "Home",
   components: { Circles, Eyes },
@@ -182,8 +182,8 @@ body {
 }
 
 .eyes {
-  margin-left: 308px;
-  margin-top: -287px;
+  margin-left: 300px;
+  margin-top: -235px;
 }
 
 .list {

@@ -52,9 +52,6 @@ export default {
         time.localTime = new Date().toLocaleTimeString();
       }, 1000);
     },
-    OpenWindow: function () {
-      window.open("https://portfolio-siggi-ai.herokuapp.com/");
-    },
   },
   mounted() {
     this.showLocaleTime();

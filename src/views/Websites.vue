@@ -11,7 +11,7 @@
 export default {
   name: "Websites",
   OpenWindow: function () {
-      window.open("https://portfolio-siggi-ai.herokuapp.com/");
-    },
-}
+    window.open("https://portfolio-siggi-ai.herokuapp.com/");
+  },
+};
 </script>
