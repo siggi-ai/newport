@@ -74,22 +74,7 @@ export default {
   font-family: "Courier New", Courier, monospace;
   color: white;
 }
-.sugg {
-  text-align: center;
-  margin-left: 0 auto;
-  padding: 30px;
-  font-size: 1rem;
-  margin: 0 auto;
-  width: 500px;
-  font-family: "Courier New", Courier, monospace;
-}
-.bored {
-  font-family: "Bungee Hairline";
-  font-size: 20px;
-  margin-bottom: -10px;
-  margin-top: -25px;
-  color: white;
-}
+
 a {
   color: white;
 }
@@ -127,18 +112,6 @@ body {
 .top-content {
   margin: 0 auto;
   width: 690px;
-}
-
-.button-old {
-  display: flex;
-  margin-top: 10px;
-  width: 136px;
-  border-radius: 4px;
-  margin-left: 57px;
-  font-family: "Bungee Hairline";
-  background-color: #6b7978;
-  color: black;
-  font-weight: bold;
 }
 
 .vue-logo {
