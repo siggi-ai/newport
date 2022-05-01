@@ -12,7 +12,7 @@ export default {
   name: "Websites",
   methods: {
     OpenWindow: function () {
-    window.open("https://portfolio-siggi-ai.herokuapp.com/");
+      window.open("https://portfolio-siggi-ai.herokuapp.com/");
     },
   },
 };

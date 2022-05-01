@@ -85,7 +85,7 @@ body {
 
 .name {
   font-family: "Bungee Hairline";
-  font-size: 57px;
+  font-size: 56px;
   color: #61bdff;
   line-height: 150%;
 }
