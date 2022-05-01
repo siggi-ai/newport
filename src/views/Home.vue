@@ -74,7 +74,7 @@ body {
 
 .name {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 70px;
+  font-size: 69px;
   color: #61bdff;
   line-height: 150%;
 }
