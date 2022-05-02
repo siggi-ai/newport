@@ -51,7 +51,7 @@ export default {
   background-color: #000000;
   box-shadow: 5px 4px #636363;
   border-radius: 10px;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Julius Sans One";
   font-weight: bold;
   color: aqua;
   font-size: 20px;

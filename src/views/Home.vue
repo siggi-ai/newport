@@ -205,12 +205,6 @@ body {
     margin-top: 10px;
     width: 200px;
   }
-  .listbox {
-    margin-top: 170px;
-    margin-left: 50px;
-    width: 280px;
-    padding: 20px;
-  }
   .rightbox {
     display: flex;
     margin-left: 80px;

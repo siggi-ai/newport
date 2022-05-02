@@ -4,8 +4,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
     <div class="top-box">
       <div class="top-content">
         <strong class="date"
@@ -70,11 +72,11 @@ export default {
   font-size: 1rem;
   margin: 0 auto;
   width: 500px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #00ff89;
 }
 .text {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: white;
 }
 
@@ -157,19 +159,13 @@ body {
     width: 500px;
     color: #00ff89;
   }
-  
+
   .self-description-text {
     color: #00ff89;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
     margin-top: 10px;
     width: 200px;
-  }
-  .listbox {
-    margin-top: 170px;
-    margin-left: 50px;
-    width: 280px;
-    padding: 20px;
   }
   .rightbox {
     display: flex;
@@ -189,6 +185,10 @@ body {
   }
   .date {
     font-size: 20px;
+  }
+  .menu-bar {
+    padding: 8px;
+    font-size: 0.8rem;
   }
 }
 </style>
