@@ -184,11 +184,11 @@ body {
     margin-top: 0px;
   }
   .date {
-    font-size: 20px;
+    font-size: 16px;
   }
   .menu-bar {
     padding: 8px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 </style>

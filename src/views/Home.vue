@@ -190,11 +190,11 @@ body {
 
 @media screen and (max-width: 680px) {
   .name {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 32px;
     width: 101%;
     margin-top: -10px;
   }
