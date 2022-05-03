@@ -95,6 +95,7 @@ a {
 }
 
 body {
+  height: 500px;
   margin: 0 auto;
   padding: 40px;
   background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
@@ -160,9 +161,6 @@ body {
 }
 
 @media screen and (max-width: 680px) {
-  body {
-    height: 1000px;
-  }
   .menu-bar {
     text-align: center;
     margin-left: 0 auto;
