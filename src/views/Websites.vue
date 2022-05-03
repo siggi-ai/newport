@@ -74,4 +74,9 @@ export default {
   color: black;
   font-weight: bold;
 }
+@media screen and (max-width: 680px) {
+  .listbox {
+    margin-left: 20px;
+  }
+}
 </style>
