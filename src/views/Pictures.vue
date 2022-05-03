@@ -601,7 +601,9 @@ body {
 
 @media screen and (orientation: portrait) and (max-width: 1200px) {
   .container {
-    margin-left: 90px;
+    margin-left: 10px;
+    width:300px;
+    height: 200px;
   }
 }
 </style>

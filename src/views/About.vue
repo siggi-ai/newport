@@ -19,4 +19,9 @@
   width: 200px;
   margin-top: 50px;
 }
+@media screen and (max-width: 680px) {
+  .text {
+    width: 335px;
+  }
+}
 </style>

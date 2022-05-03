@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="face">
     <Circles />
     <Eyes class="eyes" />
     <Eyes class="eye2" />
@@ -13,3 +13,10 @@ export default {
   components: { Circles, Eyes },
 };
 </script>
+<style> 
+@media screen and (max-width: 680px) {
+  .face {
+    margin-left: -120px;
+  }
+}
+</style>
