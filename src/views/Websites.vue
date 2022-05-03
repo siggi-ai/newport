@@ -50,7 +50,7 @@ export default {
 .listbox {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ffffff;
+  border: 1px solid #000;
   border-radius: 2%;
   color: rgb(168 238 255);
   margin: 0 auto;
