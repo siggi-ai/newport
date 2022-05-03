@@ -55,13 +55,15 @@ export default {
   color: rgb(168 238 255);
   margin: 0 auto;
   margin-top: 10px;
-  width: 250px;
+  width: 530px;
   padding: 20px;
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
   font-size: 30px;
   margin-top: -10px;
   background-color: #65009a;
+  text-align: center;
+
 }
 .button-old {
   display: flex;
@@ -78,6 +80,7 @@ export default {
 @media screen and (max-width: 680px) {
   .listbox {
     margin-left: 20px;
+    width: 250px;
   }
 }
 </style>
