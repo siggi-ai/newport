@@ -34,5 +34,9 @@ export default {
   margin-top: -15px;
   color: white;
 }
-
+@media screen and (max-width: 680px) {
+  .sugg {
+    margin-left: -20px;
+  }
+}
 </style>
