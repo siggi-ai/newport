@@ -4,6 +4,19 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
+    <p class="self-explanation">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am
+      Siegfried
+    </p>
+    <p class="self-explanation">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Web-Developer since 2021. 
+    </p>
+    <p class="self-explanation">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used HTML, JavaScript and Vue3
+    </p>
+    <p class="self-explanation">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to create this website.
+    </p>
   </div>
 </template>
 
@@ -42,7 +55,11 @@ body {
     background-position: 0% 50%;
   }
 }
-
+.self-explanation {
+  font-family: "Julius Sans One", sans-serif;
+  color: #61bdff;
+  font-size: 20px;
+}
 .vue-logo {
   width: auto;
   height: 65px;
@@ -198,18 +215,6 @@ body {
     width: 101%;
     margin-top: -10px;
   }
-  .self-description-text {
-    color: #00ff89;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
-    margin-top: 10px;
-    width: 200px;
-  }
-  .rightbox {
-    display: flex;
-    margin-left: 80px;
-    margin-top: 70px;
-  }
   .three-logos {
     width: auto;
     height: 75px;
@@ -235,6 +240,10 @@ body {
   }
   .text {
     width: 450px;
+  }
+  .self-explanation {
+    margin-left: -23px;
+    font-size: 15px;
 }
 }
 </style>
