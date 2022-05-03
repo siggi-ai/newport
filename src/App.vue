@@ -74,6 +74,7 @@ export default {
   width: 500px;
   font-family: "Julius Sans One", sans-serif;
   color: #00ff89;
+  text-decoration: none;
 }
 .picture-link {
   text-align: center;
@@ -84,6 +85,7 @@ export default {
   width: 500px;
   font-family: "Julius Sans One", sans-serif;
   color: #00ff89;
+  text-decoration: none;
 }
 .text {
   font-family: "Julius Sans One", sans-serif;
