@@ -61,6 +61,7 @@ export default {
   font-weight: bold;
   font-size: 30px;
   margin-top: -10px;
+  background-color: #65009a;
 }
 .button-old {
   display: flex;
