@@ -21,6 +21,10 @@ body {
 }
 
 .circle3:hover {
-  background-color: #6a59ff;
+  background-color: #a00000;
+  width: 180px;
+  height: 68px;
+  margin-left: 12em;
+  margin-top: 20px;
 }
 </style>

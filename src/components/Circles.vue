@@ -21,6 +21,5 @@ body {
 }
 
 .circle3:hover {
-  background-color: #6a59ff;
 }
 </style>
