@@ -81,6 +81,7 @@ export default {
   background-color: #6b7978;
   color: black;
   font-weight: bold;
+  border: 1px solid black;
 }
 @media screen and (max-width: 680px) {
   .listbox {
