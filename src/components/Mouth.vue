@@ -11,11 +11,11 @@ body {
 }
 
 .circle3 {
-  width: 300px;
-  height: 300px;
-  background-color: #ffd000;
-  margin-left: 8.5em;
-  margin-top: -0px;
+  width: 165px;
+  height: 53px;
+  background-color: #ff0000;
+  margin-left: 12.5em;
+  margin-top: 27px;
   border-radius: 50%;
   transition: 0.5s;
 }
