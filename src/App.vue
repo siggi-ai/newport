@@ -121,6 +121,7 @@ body {
   font-family: "Bungee Hairline";
   font-size: 24.7px;
   font-weight: bolder;
+  color: gray;
 }
 
 .top-box {
