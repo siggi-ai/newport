@@ -119,7 +119,7 @@ body {
 
 .date {
   font-family: "Bungee Hairline";
-  font-size: 27.6px;
+  font-size: 24.7px;
   font-weight: bolder;
 }
 
