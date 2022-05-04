@@ -39,7 +39,7 @@ a {
 body {
   margin: 0 auto;
   padding: 40px;
-  background: linear-gradient(-45deg,#a50000,#5f0082,#005a7a,#006e55);
+  background: linear-gradient(-45deg,#a50000,#5f0082,#003c51,#004f3d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
