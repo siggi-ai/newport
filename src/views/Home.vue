@@ -34,7 +34,7 @@ a {
 body {
   margin: 0 auto;
   padding: 40px;
-  background: linear-gradient(323deg,#a50000,#461359,#003c51,#004f3d);
+  background: linear-gradient(323deg,#a50000,#461359,#003c51,#003b2d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
