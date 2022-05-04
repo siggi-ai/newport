@@ -70,7 +70,6 @@ export default {
   margin-top: 10px;
   width: 136px;
   border-radius: 4px;
-  margin-left: 57px;
   font-family: "Bungee Hairline";
   font-size: 20px;
   background-color: #6b7978;
