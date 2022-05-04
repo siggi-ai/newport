@@ -13,7 +13,8 @@ body {
 .circle3 {
   width: 300px;
   height: 300px;
-  background-color: #ffd000;
+  /* background-color: #ffd000; */
+  background-image: linear-gradient(to left, #ffc107, #ff3800);
   margin-left: 8.5em;
   margin-top: -0px;
   border-radius: 50%;
@@ -21,5 +22,6 @@ body {
 }
 
 .circle3:hover {
+  background-color: crimson;
 }
 </style>
