@@ -29,7 +29,7 @@ export default {
   height: 100px;
   background-image: linear-gradient(rgb(255 255 255), #bdbdbd);
   border-radius: 50%;
-  animation: spin 3s linear infinite;
+  animation: spin 15s linear infinite;
 }
 @keyframes spin {
   0% {
