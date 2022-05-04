@@ -73,7 +73,7 @@ export default {
   text-align: center;
 }
 .button-old {
-  margin-top: 10px;
+  margin-top: 50px;
   width: 215px;
   border-radius: 4px;
   font-family: "Bungee Hairline";
