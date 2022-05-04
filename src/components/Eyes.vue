@@ -44,7 +44,7 @@ export default {
 }
 
 .box2 {
-  background-color: #000;
+  background-image: linear-gradient(rgb(79 79 79), #000000);
   width: 60px;
   height: 50px;
   border-radius: 50%;
