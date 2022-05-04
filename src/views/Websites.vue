@@ -13,7 +13,11 @@
       </div>
       <br />
       <br />
-      <button v-on:click="OpenWindow" class="button-old">my old website</button>
+      <div>
+        <button v-on:click="OpenWindow" class="button-old">
+          my old website
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -63,10 +67,8 @@ export default {
   margin-top: -10px;
   background-color: #65009a;
   text-align: center;
-
 }
 .button-old {
-  display: flex;
   margin-top: 10px;
   width: 136px;
   border-radius: 4px;
