@@ -41,15 +41,19 @@ export default {
 .website-buttons {
   width: 250px;
   height: 80px;
+  color: white;
   font-family: "Julius Sans One";
   font-size: 30px;
   background: repeating-linear-gradient(
-    45deg,
+    172deg,
     #606dbc,
     #606dbc 10px,
     #465298 10px,
     #465298 20px
   );
+  border: 3px solid #431072;
+  border-radius: 8px;
+  box-shadow: 5px 4px #000000;
 }
 .listbox {
   display: flex;
@@ -70,7 +74,7 @@ export default {
 }
 .button-old {
   margin-top: 10px;
-  width: 136px;
+  width: 215px;
   border-radius: 4px;
   font-family: "Bungee Hairline";
   font-size: 20px;
