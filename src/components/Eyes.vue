@@ -27,12 +27,9 @@ export default {
   color: #000;
   width: 100px;
   height: 100px;
-  /* background-color: white; */
   background-image: linear-gradient(rgb(255 255 255), #bdbdbd);
   border-radius: 50%;
-  /* transform: rotate(45deg); */
   animation: spin 3s linear infinite;
-  /* animation-direction: alternate; */
 }
 @keyframes spin {
   0% {

@@ -13,7 +13,6 @@ body {
 .circle3 {
   width: 165px;
   height: 53px;
- /*  background-color: #ff0000; */
   background-image: linear-gradient(rgb(255 25 22), #b30000);
   margin-left: 12.5em;
   margin-top: 10px;

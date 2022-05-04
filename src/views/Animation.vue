@@ -17,7 +17,7 @@ export default {
   components: { Circles, Eyes, Mouth, MouthShadow },
 };
 </script>
-<style> 
+<style>
 @media screen and (max-width: 680px) {
   .face {
     margin-left: -120px;

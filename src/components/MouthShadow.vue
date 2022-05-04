@@ -18,5 +18,17 @@ body {
   margin-top: -38px;
   border-radius: 50%;
   transition: 0.5s;
+  animation: open 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes open {
+  0% {
+    height: 23px;
+    margin-top: -38px;
+  }
+  100% {
+    height: 10px;
+    margin-top: -30px;
+  }
 }
 </style>
