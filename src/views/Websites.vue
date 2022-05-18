@@ -12,9 +12,15 @@
         </button>
       </div>
       <br />
+      <div>
+        <button v-on:click="OpenWindowMusic" class="website-buttons">
+          music website
+        </button>
+      </div>
+      <br />
       <br />
       <div>
-        <button v-on:click="OpenWindow" class="button-old">
+        <button v-on:click="OpenWindowOld" class="button-old">
           my old website
         </button>
       </div>
@@ -25,7 +31,7 @@
 export default {
   name: "Websites",
   methods: {
-    OpenWindow: function () {
+    OpenWindowOld: function () {
       window.open("https://portfolio-siggi-ai.herokuapp.com/");
     },
     OpenWindowTravel: function () {
@@ -33,6 +39,9 @@ export default {
     },
     OpenWindowPoke: function () {
       window.open("https://reverent-hawking-70f389.netlify.app/");
+    },
+    OpenWindowMusic: function () {
+      window.open("https://effulgent-queijadas-19f971.netlify.app/");
     },
   },
 };
