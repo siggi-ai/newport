@@ -1,11 +1,11 @@
 <template>
   <div>
     <div>
-      <button v-on:click="getSugg" class="sugg-button">suggestions</button>
+      <button v-on:click="getSugg" class="sugg-button">cat fact</button>
     </div>
     <br />
     <div class="sugg-box">
-      {{ sugg.activity }}
+      {{ sugg.fact }}
     </div>
   </div>
 </template>
@@ -24,10 +24,11 @@ export default {
   methods: {
     getSugg() {
       axios
-        .get("https://www.boredapi.com/api/activity")
+        .get("https://catfact.ninja/fact")
         .then((response) => {
           console.log("response: ", response.data);
           this.sugg = response.data;
+          console.log(this.sugg.fact);
         })
         .catch((error) => {
           console.log("error; ", error);

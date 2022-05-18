@@ -21,7 +21,7 @@
         <router-link to="/animation" class="menu-bar">animation</router-link>
         <router-link to="/pictures" class="menu-bar, picture-link">pictures</router-link>
         <router-link to="/about" class="menu-bar">about</router-link>
-        <router-link to="/bored" class="menu-bar">bored?</router-link>
+        <router-link to="/bored" class="menu-bar">cats</router-link>
         <br />
         <br />
         <br />

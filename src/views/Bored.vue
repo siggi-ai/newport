@@ -2,8 +2,7 @@
   <div>
     <div class="sugg">
       <p class="bored">
-        bored? don't worry - everyone is bored from time to time - let me help
-        you:
+        Do you like cats?
       </p>
       <br />
       <Suggestions />

@@ -9,16 +9,20 @@
       Siegfried
     </p>
     <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Web-Developer and 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a
+      Web-Developer and
     </p>
     <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Web-Designer since 2021. 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Web-Designer
+      since 2021.
     </p>
     <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used HTML, CSS, JavaScript and Vue3
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used HTML,
+      CSS, JavaScript and Vue3
     </p>
     <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to create this website.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to create this
+      website.
     </p>
   </div>
 </template>
@@ -37,7 +41,7 @@ a {
 body {
   margin: 0 auto;
   padding: 40px;
-  background: linear-gradient(323deg,#a50000,#461359,#003c51,#003b2d);
+  background: linear-gradient(323deg, #a50000, #461359, #003c51, #003b2d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -242,6 +246,6 @@ body {
   .self-explanation {
     margin-left: -23px;
     font-size: 15px;
-}
+  }
 }
 </style>
