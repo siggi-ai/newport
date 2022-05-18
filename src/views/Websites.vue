@@ -12,6 +12,7 @@
         </button>
       </div>
       <br />
+      <br />
       <div>
         <button v-on:click="OpenWindowMusic" class="website-buttons">
           music website
