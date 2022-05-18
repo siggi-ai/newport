@@ -5,14 +5,10 @@
         <button v-on:click="OpenWindowTravel" class="website-buttons">
           Travel Blog
         </button>
-        <br />
-        <br />
         <button v-on:click="OpenWindowPoke" class="website-buttons">
           Pokédex
         </button>
       </div>
-      <br />
-      <br />
       <div>
         <button v-on:click="OpenWindowMusic" class="website-buttons">
           music website
@@ -64,6 +60,8 @@ export default {
   border: 3px solid #431072;
   border-radius: 8px;
   box-shadow: 5px 4px #000000;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 .listbox {
   display: flex;
