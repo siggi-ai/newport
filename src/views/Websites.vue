@@ -14,13 +14,18 @@
           music website
         </button>
       </div>
-      <br />
+       <div>
+        <button v-on:click="OpenWindowKorean" class="website-buttons">
+          koreanisch
+        </button>
+      </div>
       <br />
       <div>
         <button v-on:click="OpenWindowOld" class="button-old">
           my old website
         </button>
       </div>
+     
     </div>
   </div>
 </template>
@@ -39,6 +44,9 @@ export default {
     },
     OpenWindowMusic: function () {
       window.open("https://effulgent-queijadas-19f971.netlify.app/");
+    },
+    OpenWindowKorean: function () {
+      window.open("https://lucent-duckanoo-46e6f6.netlify.app/");
     },
   },
 };
