@@ -16,12 +16,16 @@
         >
         <br />
         <br />
-        <router-link to="/" class="menu-bar">home</router-link>
-        <router-link to="/websites" class="menu-bar">websites</router-link>
-        <router-link to="/animation" class="menu-bar">animation</router-link>
-        <router-link to="/pictures" class="menu-bar, picture-link">pictures</router-link>
-        <router-link to="/about" class="menu-bar">about</router-link>
-        <router-link to="/cats" class="menu-bar">cats</router-link>
+        <div class="links">
+          <router-link to="/" class="menu-bar">home</router-link>
+          <router-link to="/websites" class="menu-bar">websites</router-link>
+          <router-link to="/animation" class="menu-bar">animation</router-link>
+          <router-link to="/pictures" class="menu-bar, picture-link"
+            >pictures</router-link
+          >
+          <router-link to="/about" class="menu-bar">about</router-link>
+          <router-link to="/cats" class="menu-bar">cats</router-link>
+        </div>
         <br />
         <br />
         <br />
@@ -132,6 +136,10 @@ body {
 .top-content {
   margin: 0 auto;
   width: 690px;
+}
+
+.links {
+  position: fixed;
 }
 
 .vue-logo {
