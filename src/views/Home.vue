@@ -4,32 +4,18 @@
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
-    <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am
-      Siegfried
-    </p>
-    <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a
-      Web-Developer and
-    </p>
-    <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a Web-Designer
-      since 2021.
-    </p>
-    <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used HTML,
-      CSS, JavaScript and Vue3
-    </p>
-    <p class="self-explanation">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to create this
-      website.
-    </p>
+    <div class="three-animation">
+      <Three />
+    </div>
+
   </div>
 </template>
 
 <script>
+import Three from "../components/Three.vue";
 export default {
   name: "Home",
+  components: { Three },
 };
 </script>
 
@@ -44,6 +30,11 @@ body {
   background: linear-gradient(323deg, #a50000, #461359, #003c51, #003b2d);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
+}
+
+.three-animation {
+    margin-top: 170px;
+    margin-left: 180px;
 }
 
 @keyframes gradient {
