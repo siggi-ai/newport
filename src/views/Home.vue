@@ -7,7 +7,6 @@
     <div class="three-animation">
       <Three />
     </div>
-
   </div>
 </template>
 
@@ -33,8 +32,8 @@ body {
 }
 
 .three-animation {
-    margin-top: 170px;
-    margin-left: 180px;
+  margin-top: 170px;
+  margin-left: 180px;
 }
 
 @keyframes gradient {
@@ -238,5 +237,9 @@ body {
     margin-left: -23px;
     font-size: 15px;
   }
+  .three-animation {
+  margin-top: 170px;
+  margin-left: 60px;
+}
 }
 </style>
