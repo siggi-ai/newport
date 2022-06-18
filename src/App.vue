@@ -199,13 +199,37 @@ a {
     color: #00ff89;
   }
   .date {
-    margin-left: 50px;
+    margin-left: 250px;
   }
   .links {
-    margin-left: 50px;
+    margin-left: 270px;
   }
   .router-view {
-    padding-left: 100px;
+    padding-left: 190px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 150px;
+  }
+  .links {
+    margin-left: 170px;
+  }
+  .router-view {
+    padding-left: 90px;
   }
   .menu-bar {
     padding: 8px;
