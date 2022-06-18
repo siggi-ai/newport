@@ -356,6 +356,30 @@ a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 110px;
+  }
+  .links {
+    margin-left: 130px;
+  }
+  .router-view {
+    padding-left: 50px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .menu-bar {
     text-align: center;
@@ -368,7 +392,7 @@ a {
   }
   .menu-bar {
     padding: 8px;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .picture-link {
     display: none;
@@ -378,7 +402,7 @@ a {
     margin-left: 40px;
   }
   .links {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .router-view {
     padding-left: 10px;
