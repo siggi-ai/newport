@@ -68,7 +68,7 @@ export default {
   border-radius: 8px;
   box-shadow: 5px 4px #000000;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .listbox {
   display: flex;
