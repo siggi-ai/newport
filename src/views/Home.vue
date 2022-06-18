@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="name-title">
       <strong class="name">#Siegfried Hamm</strong>
       <strong class="title">&#60;WebDeveloper&#62;</strong>
     </div>
@@ -19,6 +19,9 @@ export default {
 </script>
 
 <style>
+.name-title {
+  margin-top: 0px;
+}
 a {
   color: white;
 }

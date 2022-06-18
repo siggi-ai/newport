@@ -30,6 +30,8 @@
         <br />
         <br />
       </div>
+    </div>
+    <div class="router-view">
       <router-view />
     </div>
   </div>
@@ -69,6 +71,51 @@ export default {
 </script>
 
 <style>
+body {
+  height: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* .top-box {
+  margin: 0 auto;
+  width: 586px;
+} */
+
+.top-content {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  position: fixed;
+  height: 128px;
+  margin-top: -60px;
+  margin-left: -40px;
+}
+
+.date {
+  font-family: "Bungee Hairline";
+  font-size: 24.7px;
+  font-weight: bolder;
+  color: gray;
+  position: fixed;
+  margin-top: 25px;
+  margin-left: 500px;
+}
+
+.links {
+  position: fixed;
+  margin-top: 45px;
+  margin-left: 490px;
+}
+
+.router-view {
+  padding-top: 100px;
+  padding-left: 440px;
+}
+
 .menu-bar {
   text-align: center;
   margin-left: 0 auto;
@@ -100,15 +147,6 @@ a {
   color: white;
 }
 
-body {
-  height: 500px;
-  margin: 0 auto;
-  padding: 40px;
-  background: linear-gradient(-45deg, #a52600, #ac0042, #005a7a, #006e55);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -119,27 +157,6 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
-
-.date {
-  font-family: "Bungee Hairline";
-  font-size: 24.7px;
-  font-weight: bolder;
-  color: gray;
-}
-
-.top-box {
-  margin: 0 auto;
-  width: 586px;
-}
-
-.top-content {
-  margin: 0 auto;
-  width: 690px;
-}
-
-.links {
-  position: fixed;
 }
 
 .vue-logo {
@@ -171,7 +188,7 @@ body {
   margin-left: 210px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1100px) {
   .menu-bar {
     text-align: center;
     margin-left: 0 auto;
@@ -181,29 +198,29 @@ body {
     width: 500px;
     color: #00ff89;
   }
+  .date {
+    margin-left: 50px;
+  }
+  .links {
+    margin-left: 50px;
+  }
+  .router-view {
+    padding-left: 100px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
 
-  .self-description-text {
+@media screen and (max-width: 680px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
     color: #00ff89;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
-    margin-top: 10px;
-    width: 200px;
-  }
-  .rightbox {
-    display: flex;
-    margin-left: 80px;
-    margin-top: 70px;
-  }
-  .three-logos {
-    width: auto;
-    height: 75px;
-    margin-left: -200px;
-    margin-top: -10px;
-  }
-  .vue-logo {
-    width: auto;
-    height: 65px;
-    margin-top: 0px;
   }
   .date {
     font-size: 16px;

@@ -87,6 +87,7 @@ export default {
   margin-top: -10px;
   background-color: #65009a;
   text-align: center;
+  margin-left: 0px;
 }
 .button-old {
   margin-top: 50px;

@@ -19,10 +19,9 @@ export default {
 <style scoped>
 .sugg {
   text-align: center;
-  margin-left: 0 auto;
+  margin-left: 0px;
   padding: 30px;
   font-size: 2rem;
-  margin: 0 auto;
   width: 500px;
   font-family:'Courier New', Courier, monospace;
 }
