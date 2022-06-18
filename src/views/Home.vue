@@ -241,8 +241,8 @@ body {
     font-size: 15px;
   }
   .three-animation {
-  margin-top: 170px;
-  margin-left: 60px;
-}
+    margin-top: 170px;
+    margin-left: 60px;
+  }
 }
 </style>
