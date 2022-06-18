@@ -1,113 +1,115 @@
 <template>
   <div>
-    <div class="container">
-      <div class="a"></div>
-      <div class="b"></div>
-      <div class="c"></div>
-      <div class="d"></div>
-      <div class="e"></div>
-      <div class="f"></div>
-      <div class="g"></div>
-      <div class="h"></div>
-      <div class="i"></div>
-      <div class="j"></div>
-      <div class="k"></div>
-      <div class="l"></div>
-      <div class="m"></div>
-      <div class="n"></div>
-      <div class="o"></div>
-      <div class="p"></div>
-      <div class="q"></div>
-      <div class="r"></div>
-      <div class="s"></div>
-      <div class="t"></div>
-      <div class="u"></div>
-      <div class="v"></div>
-      <div class="w"></div>
-      <div class="x"></div>
-      <div class="y"></div>
-      <div class="z"></div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="g"></div>
+        <div class="h"></div>
+        <div class="i"></div>
+        <div class="j"></div>
+        <div class="k"></div>
+        <div class="l"></div>
+        <div class="m"></div>
+        <div class="n"></div>
+        <div class="o"></div>
+        <div class="p"></div>
+        <div class="q"></div>
+        <div class="r"></div>
+        <div class="s"></div>
+        <div class="t"></div>
+        <div class="u"></div>
+        <div class="v"></div>
+        <div class="w"></div>
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="z"></div>
 
-      <div class="A"></div>
-      <div class="B"></div>
-      <div class="C"></div>
-      <div class="D"></div>
-      <div class="E"></div>
-      <div class="F"></div>
-      <div class="G"></div>
-      <div class="H"></div>
-      <div class="I"></div>
-      <div class="J"></div>
-      <div class="K"></div>
-      <div class="L"></div>
-      <div class="M"></div>
-      <div class="N"></div>
-      <div class="O"></div>
-      <div class="P"></div>
-      <div class="Q"></div>
-      <div class="R"></div>
-      <div class="S"></div>
-      <div class="T"></div>
-      <div class="U"></div>
-      <div class="V"></div>
-      <div class="W"></div>
-      <div class="X"></div>
-      <div class="Y"></div>
-      <div class="Z"></div>
+        <div class="A"></div>
+        <div class="B"></div>
+        <div class="C"></div>
+        <div class="D"></div>
+        <div class="E"></div>
+        <div class="F"></div>
+        <div class="G"></div>
+        <div class="H"></div>
+        <div class="I"></div>
+        <div class="J"></div>
+        <div class="K"></div>
+        <div class="L"></div>
+        <div class="M"></div>
+        <div class="N"></div>
+        <div class="O"></div>
+        <div class="P"></div>
+        <div class="Q"></div>
+        <div class="R"></div>
+        <div class="S"></div>
+        <div class="T"></div>
+        <div class="U"></div>
+        <div class="V"></div>
+        <div class="W"></div>
+        <div class="X"></div>
+        <div class="Y"></div>
+        <div class="Z"></div>
 
-      <div class="aa"></div>
-      <div class="bb"></div>
-      <div class="cc"></div>
-      <div class="dd"></div>
-      <div class="ee"></div>
-      <div class="ff"></div>
-      <div class="gg"></div>
-      <div class="hh"></div>
-      <div class="ii"></div>
-      <div class="jj"></div>
-      <div class="kk"></div>
-      <div class="ll"></div>
-      <div class="mm"></div>
-      <div class="nn"></div>
-      <div class="oo"></div>
-      <div class="pp"></div>
-      <div class="qq"></div>
-      <div class="rr"></div>
-      <div class="ss"></div>
-      <div class="tt"></div>
-      <div class="uu"></div>
-      <div class="vv"></div>
-      <div class="ww"></div>
-      <div class="xx"></div>
-      <div class="yy"></div>
-      <div class="zz"></div>
+        <div class="aa"></div>
+        <div class="bb"></div>
+        <div class="cc"></div>
+        <div class="dd"></div>
+        <div class="ee"></div>
+        <div class="ff"></div>
+        <div class="gg"></div>
+        <div class="hh"></div>
+        <div class="ii"></div>
+        <div class="jj"></div>
+        <div class="kk"></div>
+        <div class="ll"></div>
+        <div class="mm"></div>
+        <div class="nn"></div>
+        <div class="oo"></div>
+        <div class="pp"></div>
+        <div class="qq"></div>
+        <div class="rr"></div>
+        <div class="ss"></div>
+        <div class="tt"></div>
+        <div class="uu"></div>
+        <div class="vv"></div>
+        <div class="ww"></div>
+        <div class="xx"></div>
+        <div class="yy"></div>
+        <div class="zz"></div>
 
-      <div class="AA"></div>
-      <div class="BB"></div>
-      <div class="CC"></div>
-      <div class="DD"></div>
-      <div class="EE"></div>
-      <div class="FF"></div>
-      <div class="GG"></div>
-      <div class="HH"></div>
-      <div class="II"></div>
-      <div class="JJ"></div>
-      <div class="KK"></div>
-      <div class="LL"></div>
-      <div class="MM"></div>
-      <div class="NN"></div>
-      <div class="OO"></div>
-      <div class="PP"></div>
-      <div class="QQ"></div>
-      <div class="RR"></div>
-      <div class="SS"></div>
-      <div class="TT"></div>
-      <div class="UU"></div>
-      <div class="VV"></div>
-      <div class="WW"></div>
-      <div class="XX"></div>
-      <div class="YY"></div>
-      <div class="ZZ"></div>
+        <div class="AA"></div>
+        <div class="BB"></div>
+        <div class="CC"></div>
+        <div class="DD"></div>
+        <div class="EE"></div>
+        <div class="FF"></div>
+        <div class="GG"></div>
+        <div class="HH"></div>
+        <div class="II"></div>
+        <div class="JJ"></div>
+        <div class="KK"></div>
+        <div class="LL"></div>
+        <div class="MM"></div>
+        <div class="NN"></div>
+        <div class="OO"></div>
+        <div class="PP"></div>
+        <div class="QQ"></div>
+        <div class="RR"></div>
+        <div class="SS"></div>
+        <div class="TT"></div>
+        <div class="UU"></div>
+        <div class="VV"></div>
+        <div class="WW"></div>
+        <div class="XX"></div>
+        <div class="YY"></div>
+        <div class="ZZ"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -119,6 +121,10 @@ export default {
 <style scoped>
 body {
   background-color: #000;
+}
+
+.wrapper {
+  position: fixed;
 }
 
 .container {
@@ -602,7 +608,7 @@ body {
 @media screen and (orientation: portrait) and (max-width: 1200px) {
   .container {
     margin-left: 10px;
-    width:300px;
+    width: 300px;
     height: 200px;
   }
 }

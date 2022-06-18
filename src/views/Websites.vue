@@ -14,7 +14,7 @@
           music website
         </button>
       </div>
-       <div>
+      <div>
         <button v-on:click="OpenWindowKorean" class="website-buttons">
           koreanisch
         </button>
@@ -25,7 +25,6 @@
           my old website
         </button>
       </div>
-     
     </div>
   </div>
 </template>
@@ -79,7 +78,7 @@ export default {
   color: rgb(168 238 255);
   margin: 0 auto;
   margin-top: 10px;
-  width: 530px;
+  width: 250px;
   padding: 20px;
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
@@ -87,7 +86,7 @@ export default {
   margin-top: -10px;
   background-color: #65009a;
   text-align: center;
-  margin-left: 0px;
+  margin-left: 140px;
 }
 .button-old {
   margin-top: 50px;
@@ -104,6 +103,25 @@ export default {
   .listbox {
     margin-left: 20px;
     width: 250px;
+  }
+  .website-buttons {
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    font-family: Julius Sans One;
+    font-size: 22px;
+    background: repeating-linear-gradient(
+      172deg,
+      #606dbc,
+      #606dbc 10px,
+      #465298 0,
+      #465298 20px
+    );
+    border: 3px solid #431072;
+    border-radius: 8px;
+    box-shadow: 5px 4px #000;
+    margin-bottom: 10px;
+    margin-left: 1px;
   }
 }
 </style>
