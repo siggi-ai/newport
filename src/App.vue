@@ -188,6 +188,54 @@ a {
   margin-left: 210px;
 }
 
+@media screen and (max-width: 1400px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 400px;
+  }
+  .links {
+    margin-left: 430px;
+  }
+  .router-view {
+    padding-left: 340px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 350px;
+  }
+  .links {
+    margin-left: 370px;
+  }
+  .router-view {
+    padding-left: 300px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .menu-bar {
     text-align: center;
