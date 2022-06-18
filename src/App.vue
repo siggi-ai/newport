@@ -375,13 +375,13 @@ a {
   }
   .date {
     font-size: 16px;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .links {
-    margin-left: 100px;
+    margin-left: 80px;
   }
   .router-view {
-    padding-left: 30px;
+    padding-left: 10px;
   }
 }
 </style>

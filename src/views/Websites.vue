@@ -2,11 +2,11 @@
   <div>
     <div class="listbox">
       <div>
-        <button v-on:click="OpenWindowTravel" class="website-buttons">
-          Travel Blog
-        </button>
         <button v-on:click="OpenWindowPoke" class="website-buttons">
           Pokédex
+        </button>
+        <button v-on:click="OpenWindowTravel" class="website-buttons">
+          Travel Blog
         </button>
       </div>
       <div>
