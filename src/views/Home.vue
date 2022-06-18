@@ -202,7 +202,7 @@ body {
 
 @media screen and (max-width: 680px) {
   .name {
-    font-size: 32px;
+    font-size: 29px;
   }
 
   .title {
