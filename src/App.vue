@@ -188,7 +188,7 @@ a {
   margin-left: 210px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .menu-bar {
     text-align: center;
     margin-left: 0 auto;
@@ -199,20 +199,20 @@ a {
     color: #00ff89;
   }
   .date {
-    margin-left: 400px;
+    margin-left: 390px;
   }
   .links {
-    margin-left: 430px;
+    margin-left: 420px;
   }
   .router-view {
-    padding-left: 340px;
+    padding-left: 330px;
   }
   .menu-bar {
     padding: 8px;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .menu-bar {
     text-align: center;
     margin-left: 0 auto;
@@ -236,7 +236,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .menu-bar {
     text-align: center;
     margin-left: 0 auto;
@@ -254,6 +254,78 @@ a {
   }
   .router-view {
     padding-left: 190px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 230px;
+  }
+  .links {
+    margin-left: 250px;
+  }
+  .router-view {
+    padding-left: 170px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 210px;
+  }
+  .links {
+    margin-left: 230px;
+  }
+  .router-view {
+    padding-left: 150px;
+  }
+  .menu-bar {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu-bar {
+    text-align: center;
+    margin-left: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 500px;
+    color: #00ff89;
+  }
+  .date {
+    margin-left: 190px;
+  }
+  .links {
+    margin-left: 210px;
+  }
+  .router-view {
+    padding-left: 130px;
   }
   .menu-bar {
     padding: 8px;
@@ -294,15 +366,22 @@ a {
     width: 500px;
     color: #00ff89;
   }
-  .date {
-    font-size: 16px;
-  }
   .menu-bar {
     padding: 8px;
     font-size: 0.6rem;
   }
   .picture-link {
     display: none;
+  }
+  .date {
+    font-size: 16px;
+    margin-left: 60px;
+  }
+  .links {
+    margin-left: 100px;
+  }
+  .router-view {
+    padding-left: 30px;
   }
 }
 </style>
