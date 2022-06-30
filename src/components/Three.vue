@@ -4,7 +4,7 @@
 
 <script>
 import * as Three from "three";
-import TrackballControls from 'three-trackballcontrols';
+import TrackballControls from "three-trackballcontrols";
 
 export default {
   name: "ThreeTest",
