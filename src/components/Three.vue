@@ -4,6 +4,7 @@
 
 <script>
 import * as Three from "three";
+import TrackballControls from 'three-trackballcontrols';
 
 export default {
   name: "ThreeTest",
@@ -18,6 +19,8 @@ export default {
   methods: {
     init: function () {
       let container = document.getElementById("container");
+
+      console.log(TrackballControls);
 
       this.camera = new Three.PerspectiveCamera(
         75,
