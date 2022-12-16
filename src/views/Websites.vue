@@ -20,11 +20,6 @@
         </button>
       </div>
       <br />
-      <div>
-        <button v-on:click="OpenWindowOld" class="button-old">
-          my old website
-        </button>
-      </div>
     </div>
   </div>
 </template>
@@ -32,9 +27,6 @@
 export default {
   name: "Websites",
   methods: {
-    OpenWindowOld: function () {
-      window.open("https://portfolio-siggi-ai.herokuapp.com/");
-    },
     OpenWindowTravel: function () {
       window.open("https://laughing-minsky-d5d277.netlify.app/");
     },
